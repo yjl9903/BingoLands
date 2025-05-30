@@ -8,9 +8,7 @@ import { connect } from '~/drizzle/d1/connect';
 // import { initialize } from '~/drizzle/d1/initialize';
 import { bingos } from '~/drizzle/schema';
 
-export async function connectDatabase(): Promise<
-  DrizzleD1Database<{ bingos: typeof bingos; }>
-> {
+export async function connectDatabase(): Promise<DrizzleD1Database<{ bingos: typeof bingos }>> {
   if (import.meta.dev) {
     const { database } = await import('~/drizzle/dev/connect');
     return database as any;
