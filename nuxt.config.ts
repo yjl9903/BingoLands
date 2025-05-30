@@ -40,6 +40,9 @@ export default defineNuxtConfig({
     }
   },
   analytics: {
-
+    umami: {
+      src: 'https://umami.animes.garden/script.js',
+      id: 'a4a34be3-5598-4cf8-aa12-90ae03e72a21'
+    }
   }
 })
