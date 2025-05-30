@@ -34,7 +34,7 @@ export type Block = {
   attrs: {
     style?: string | Record<string, string>;
   };
-  content: Inline;
+  content: Inline[];
 };
 
 export type BingoGameTable = {

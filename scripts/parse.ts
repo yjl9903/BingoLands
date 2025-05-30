@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-import { BingoContentSchema } from '../bingo'
+import { BingoContentSchema } from '../bingo';
 
 const filepath = './anime-data.json';
 

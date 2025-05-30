@@ -11,6 +11,7 @@ const InlineSchema = z.object({
       href: z.string().optional(),
       style: StyleSchema
     })
+    .passthrough()
     .default({}),
   content: z.string().default('')
 });
@@ -21,6 +22,7 @@ const BlockSchema = z.object({
     .object({
       style: StyleSchema
     })
+    .passthrough()
     .default({}),
   content: z.union([
     z.null().transform(() => []),

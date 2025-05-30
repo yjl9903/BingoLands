@@ -2,7 +2,7 @@
   "name": "近 15 年 Bangumi 评分前 10 名",
   "header": [
     {
-      "type": "p",
+      "type": "h1",
       "attrs": {},
       "content": [
         {
