@@ -21,6 +21,19 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       autoSubfolderIndex: false
+    },
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true,
+      wrangler: {
+        name: 'animebingo',
+        d1_databases: [
+          {
+            binding: 'D1_DATABASE',
+            database_id: 'ba92e095-943d-476f-a8ca-cb4e7ddbd94b'
+          }
+        ]
+      }
     }
   },
 
