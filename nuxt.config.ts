@@ -18,6 +18,12 @@ export default defineNuxtConfig({
     }
   },
 
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false
+    }
+  },
+
   modules: [
     '@nuxt/ui',
     '@nuxt/content',

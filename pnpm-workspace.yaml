@@ -5,3 +5,4 @@ onlyBuiltDependencies:
   - esbuild
   - sharp
   - vue-demi
+  - workerd
