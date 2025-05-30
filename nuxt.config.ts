@@ -37,6 +37,21 @@ export default defineNuxtConfig({
     }
   },
 
+  components: [
+    // {
+    //   path: '~/components/common',
+    //   pathPrefix: false
+    // },
+    // {
+    //   path: '~/components/docs',
+    //   pathPrefix: false
+    // },
+    {
+      path: '~/components',
+      pathPrefix: false
+    }
+  ],
+
   modules: [
     '@nuxt/ui',
     '@nuxt/content',
@@ -64,4 +79,4 @@ export default defineNuxtConfig({
       id: 'a4a34be3-5598-4cf8-aa12-90ae03e72a21'
     }
   }
-})
+});
