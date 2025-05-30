@@ -1,0 +1,2649 @@
+{
+  "name": "近 15 年 Bangumi 评分前 10 名",
+  "header": [
+    {
+      "type": "p",
+      "attrs": {},
+      "content": [
+        {
+          "type": "span",
+          "attrs": {},
+          "content": "选取近 15 年每年 Bangumi 评分前 10 名的动画, 你都看了吗?"
+        }
+      ]
+    }
+  ],
+  "game": {
+    "type": "bingo",
+    "rowCount": 15,
+    "colCount": 11,
+    "cells": [
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2024"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "航海王：粉丝来信"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "我心里危险的东西 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "败犬女主太多了！"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "失忆投捕"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "迷宫饭"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "夏目友人帐 柒"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "GIRLS BAND CRY"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "为美好的世界献上祝福！第三季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "福星小子 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "无职转生Ⅱ ～到了异世界就拿出真本事～ 第2部分"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2023"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "葬送的芙莉莲"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "冰海战记 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "BanG Dream! It's MyGO!!!!!"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "辉夜大小姐想让我告白-初吻不会结束-"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "我心里危险的东西"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "机动战士高达 闪光的哈撒韦 TV剪辑版"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "天国大魔境"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "偶像大师 灰姑娘女孩 U149"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "跃动青春"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "进击的巨人 最终季 完结篇 前篇"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2022"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "孤独摇滚！"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "辉夜大小姐想让我告白-超级浪漫-"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "来自深渊 烈日的黄金乡"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "灵能百分百 第三季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "向山进发 Next Summit"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "擅长捉弄的高木同学 第三季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "死神 千年血战篇"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "相合之物"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "街角魔族 2丁目"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "黄金神威 第四季"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2021"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "奇巧计程车"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "赛马娘 Pretty Derby 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "无职转生～到了异世界就拿出真本事～ 第2部分"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "摇曳露营△ 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "悠哉日常大王 Nonstop"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "86 -不存在的战区- 第2部分"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "NOMAD MEGALO BOX 2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "无职转生～到了异世界就拿出真本事～"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "境界触发者 第三季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "漂流少年"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2020"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "黄金神威 第三季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "别对映像研出手！"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "辉夜大小姐想让我告白？～天才们的恋爱头脑战～"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "马男波杰克6 下"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "异种族风俗娘评鉴指南"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "排球少年 TO THE TOP 第二期"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "进击的巨人 最终季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "Re：从零开始的异世界生活 新编集版"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "隐瞒之事"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "请问您今天要来点兔子吗？BLOOM"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2019"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "进击的巨人 第三季 Part.2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "冰海战记"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "灵能百分百 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "高分少女 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "瑞克和莫蒂 第四季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "辉夜大小姐想让我告白～天才们的恋爱头脑战～"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "擅长捉弄的高木同学 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "女高中生的无所事事"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "约定的梦幻岛"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "马男波杰克6 上"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2018"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "强风吹拂"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "进击的巨人 第三季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "摇曳露营△"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "比宇宙更远的地方"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "命运石之门 0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "JOJO的奇妙冒险 黄金之风"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "少女☆歌剧 Revue Starlight"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "妖精森林的小不点"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "高分少女"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "碧蓝之海"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2017"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "3月的狮子 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "瑞克和莫蒂 第三季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "昭和元禄落语心中 -助六再临篇-"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "来自深渊"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "终物语（下）"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "少女终末旅行"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "进击的巨人 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "探险活宝 第九季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "重启咲良田"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "月色真美"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2016"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "吹响！悠风号 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "排球少年 乌野高校 VS 白鸟泽学园高校"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "3月的狮子"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "昭和元禄落语心中"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "马男波杰克3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "灵能百分百"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "JOJO的奇妙冒险 不灭钻石"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "探险活宝 第八季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "齐木楠雄的灾难"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "ReLIFE"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2015"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "瑞克和莫蒂 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "吹响！悠风号"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "排球少年 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "JOJO的奇妙冒险 星尘斗士 埃及篇"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "银魂°"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "一拳超人"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "悠哉日常大王 Repeat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "苍穹之法芙娜 EXODUS"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "鲁邦三世"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "苍穹之法芙娜 EXODUS 第2部分"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2014"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "白箱"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "乒乓"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "虫师 续章 第2部分"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "虫师 续章"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "虫师 特別篇 蚀日之翳"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "怪诞小镇 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "太空丹迪 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "排球少年"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "JOJO的奇妙冒险 星尘斗士"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "四月是你的谎言"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2013"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "瑞克和莫蒂 第一季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "物语系列 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "进击的巨人"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "歌牌情缘 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "斩服少女"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "悠哉日常大王"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "银之匙 Silver Spoon"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "宇宙战舰大和号2199"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "有顶天家族"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "美妙旋律 Rainbow Live"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2012"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "银魂' 延长战"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "爆漫王。3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "冰菓"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "来自新世界"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "日常 ETV版"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "宇宙兄弟"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "夏目友人帐 肆"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "男子高中生的日常"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "心理测量者"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "怪诞小镇 第一季"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2011"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "命运石之门"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "银魂'"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "魔法少女小圆"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "日常"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "偶像大师"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "夏目友人帐 叁"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "猎人"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "Fate/Zero"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "爆漫王。2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "回转企鹅罐"
+              ]
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "type": "content",
+          "styles": {},
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "2010"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "四叠半神话大系"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "轻音少女 第二季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "战斗之魂Brave"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "王牌投手 振臂高挥～夏日大会篇～"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "Heart Catch 光之美少女！"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "吊带袜天使"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "爆漫王。"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "小马宝莉：友谊就是魔法 第一季"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "无头骑士异闻录"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "styles": {
+            "default": "",
+            "checked": "background:green;"
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                "飞出个未来 第6季"
+              ]
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "footer": []
+}
