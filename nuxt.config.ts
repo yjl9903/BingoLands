@@ -1,0 +1,45 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2025-05-15',
+  devtools: { enabled: true },
+
+  css: ['@unocss/reset/tailwind.css'],
+
+  app: {
+    head: {
+      title: '动画 Bingo',
+      viewport: 'width=device-width,initial-scale=1,viewport-fit=cover',
+      htmlAttrs: {
+        lang: 'zh-CN'
+      },
+      link: [{ rel: 'icon', href: '/favicon.svg' }],
+      meta: [],
+      script: []
+    }
+  },
+
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/content',
+    '@nuxt/scripts',
+    '@nuxt/image',
+    '@nuxt/icon',
+    '@nuxt/fonts',
+    '@vueuse/nuxt',
+    '@unocss/nuxt',
+    'unplugin-info/nuxt',
+    'unplugin-analytics/nuxt'
+  ],
+
+  unocss: {
+    preflight: true
+  },
+  info: {
+    meta: {
+      // ...
+    }
+  },
+  analytics: {
+
+  }
+})
