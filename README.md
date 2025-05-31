@@ -13,7 +13,7 @@
 - **数据校验**: [bingo/schema.ts](./bingo/schema.ts)
 - **示例**
   - **数据结构示例**: [assets/anime-data.json](./assets/anime-data.json), [assets/anime-data.yml](./assets/anime-data.yml)
-  - **抓取脚本示例**: [scripts/generate.ts](./scripts/generate.ts)
+  - **抓取脚本示例**: [examples/bangumi-top.ts](./examples/bangumi-top.ts), [examples/generate-bingo.ts](./examples/generate-bingo.ts)
 
 ## 开源协议
 
