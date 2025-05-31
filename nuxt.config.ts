@@ -64,8 +64,18 @@ export default defineNuxtConfig({
     'unplugin-analytics/nuxt',
     'shadcn-nuxt',
     'nuxt-monaco-editor',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    'nuxt-rate-limit'
   ],
+
+  nuxtRateLimit: {
+    routes: {
+      '/api/bingo': {
+        maxRequests: 3,
+        intervalSeconds: 60,
+      },
+    },
+  },
 
   monacoEditor: {
     // These are default values:
