@@ -62,9 +62,18 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'unplugin-info/nuxt',
     'unplugin-analytics/nuxt',
-    'shadcn-nuxt'
+    'shadcn-nuxt',
+    'nuxt-monaco-editor'
   ],
 
+  monacoEditor: {
+    // These are default values:
+    locale: 'en',
+    componentName: {
+      codeEditor: 'MonacoEditor',
+      diffEditor: 'MonacoDiffEditor'
+    }
+  },
   unocss: {
     preflight: true
   },

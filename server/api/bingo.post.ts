@@ -1,16 +1,52 @@
-import * as z from 'zod';
+import { bingos } from '~/drizzle/schema';
+import { type BingoContent, BingoContentSchema, hashBingoContent } from '~/bingo';
 
 import { connectDatabase } from '../utils/database';
 
-const schema = z.object({
-  name: z.string(),
-  sourceCity: z.string(),
-  targetCity: z.string(),
-  type: z.enum(['buy', 'sell']),
-  trend: z.enum(['up', 'same', 'down']),
-  price: z.number().gt(0),
-  percent: z.number().gt(0).lt(200),
-  uploadedAt: z.coerce.date()
-});
+export default defineEventHandler(async (event) => {
+  const body = await readBody<{ auth: string; content: BingoContent }>(event);
 
-export default defineEventHandler(async (event) => {});
+  const parsed = BingoContentSchema.safeParse(body.content);
+
+  if (body.auth && parsed.success) {
+    try {
+      const content = parsed.data as BingoContent;
+      const hash = await hashBingoContent(content);
+
+      const db = await connectDatabase();
+
+      const resp = await db
+        .insert(bingos)
+        .values([{ hash, auth: body.auth, name: content.name, content }])
+        .returning({ id: bingos.id, hash: bingos.hash })
+        .onConflictDoNothing()
+        .execute();
+
+      if (resp.length === 1) {
+        return {
+          status: 'ok',
+          id: resp[0].id,
+          hash,
+          auth: body.auth
+        };
+      } else {
+        return {
+          status: 'error',
+          message: 'insert failed'
+        };
+      }
+    } catch (error) {
+      console.error(error);
+
+      return {
+        status: 'error',
+        message: (error as any).message || 'unknown error'
+      };
+    }
+  } else {
+    return {
+      status: 'error',
+      error: parsed.error
+    };
+  }
+});

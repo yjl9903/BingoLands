@@ -6,7 +6,7 @@ const props = withDefaults(defineProps<{}>(), {});
 </script>
 
 <template>
-  <nav class="w-screen border-b border-b-gray-200 bg-white fixed top-0">
+  <nav class="w-screen border-b border-b-gray-200 bg-white absolute top-0">
     <div class="w-screen h-[64px]">
       <div class="main h-full flex items-center">
         <NuxtLink to="/" class="select-none flex items-center outline-none">
@@ -15,7 +15,7 @@ const props = withDefaults(defineProps<{}>(), {});
         </NuxtLink>
         <div class="flex-auto"></div>
         <div class="flex items-center">
-          <nuxt-link to="/edit">
+          <nuxt-link to="/create">
             <Button
               variant="outline"
               class="text-green-500 bg-green-100/50 border-green-600 hover:(text-green-500 bg-green-100/80 border-green-700)"

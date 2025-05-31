@@ -21,7 +21,7 @@ async function getTopSubjects(year: number, kth: number) {
 
 const years = [
   2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010
-];
+].reverse();
 
 const bingo = {
   name: '近 15 年 Bangumi 评分前 10 名',
