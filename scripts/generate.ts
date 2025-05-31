@@ -60,7 +60,7 @@ for (const year of years) {
 const parsed = BingoContentSchema.safeParse(bingo);
 
 if (parsed.success) {
-  fs.promises.writeFile('anime-data.json', JSON.stringify(parsed.data, null, 2), 'utf-8');
+  fs.promises.writeFile('./assets/anime-data.json', JSON.stringify(parsed.data, null, 2), 'utf-8');
 } else {
   console.log(parsed.error);
 }

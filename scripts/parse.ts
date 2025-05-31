@@ -3,11 +3,11 @@ import { stringify } from 'yaml';
 
 import { BingoContentSchema } from '../bingo';
 
-const filepath = './anime-data.json';
+const filepath = './assets/anime-data.json';
 
 const json = JSON.parse(await fs.promises.readFile(filepath, 'utf-8'));
 
-await fs.promises.writeFile('anime-data.yml', stringify(json), 'utf-8');
+await fs.promises.writeFile('./assets/anime-data.yml', stringify(json), 'utf-8');
 
 const parsed = BingoContentSchema.safeParse(json);
 
