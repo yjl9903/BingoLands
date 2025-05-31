@@ -5,8 +5,6 @@ import { bingos } from '~/drizzle/schema';
 import { connectDatabase } from '../../utils/database';
 
 export default defineEventHandler(async (event) => {
-  console.log(getRequestURL(event));
-
   const hash = getRouterParam(event, 'hash');
   const db = await connectDatabase();
 

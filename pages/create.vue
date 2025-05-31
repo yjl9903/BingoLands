@@ -55,6 +55,10 @@ const getSharedLink = (hash: string) => {
   link.pathname = `/bingo/${hash}`;
   return link.toString();
 };
+const copyLink = async (hash: string) => {
+  const link = getSharedLink(hash);
+  await navigator.clipboard.writeText(link);
+};
 
 const previewError = ref<any>();
 const previewContent = ref<BingoContent | undefined>(undefined);
@@ -116,7 +120,7 @@ const onPreivewExit = () => {
           <nuxt-link :to="`/bingo/${created.hash!}`" class="text-link">{{
             getSharedLink(created.hash!)
           }}</nuxt-link>
-          <Button variant="link">复制链接</Button>
+          <Button variant="link" @click="copyLink">复制链接</Button>
         </div>
       </div>
     </div>

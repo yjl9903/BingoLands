@@ -4,7 +4,7 @@ import { Bingo } from '~/components/bingo';
 const route = useRoute();
 const hash = route.params.hash as string;
 
-const resp = useFetch(`/api/bingo/${hash}`, {});
+const resp = await useFetch(`/api/bingo/${hash}`, {});
 
 const bingo = computed(() => resp.data.value?.bingo);
 
