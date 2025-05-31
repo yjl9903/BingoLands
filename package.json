@@ -35,6 +35,7 @@
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.30.10",
     "lucide-vue-next": "^0.511.0",
+    "modern-screenshot": "^4.6.0",
     "nuxt": "^3.17.4",
     "reka-ui": "^2.3.0",
     "shadcn-nuxt": "2.2.0",

@@ -27,6 +27,7 @@ const withBorder = computed(() => true);
   /* @apply: w-full overflow-x-auto; */
   @apply: my-8;
   @apply: text-sm;
+  @apply: bg-white;
 }
 
 .bingo-table.with-border {

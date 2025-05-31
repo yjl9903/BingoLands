@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { BingoContent } from '~/bingo';
 
+import GameC from './Game.vue';
 import BlockC from './Block.vue';
-import TableC from './Table.vue';
 
 const props = defineProps<{ content: BingoContent }>();
 
@@ -16,9 +16,7 @@ const { header, game, footer } = content.value;
     <div class="bingo-header">
       <BlockC v-for="(child, index) in header" :key="index" :node="child"></BlockC>
     </div>
-    <div class="bingo-game">
-      <TableC :node="game"></TableC>
-    </div>
+    <GameC :game="game"></GameC>
     <div class="bingo-footer">
       <BlockC v-for="(child, index) in footer" :key="index" :node="child"></BlockC>
     </div>
