@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: '动画 Bingo',
+      title: '动画宾果',
       viewport: 'width=device-width,initial-scale=1,viewport-fit=cover',
       htmlAttrs: {
         lang: 'zh-CN'
@@ -63,7 +63,8 @@ export default defineNuxtConfig({
     'unplugin-info/nuxt',
     'unplugin-analytics/nuxt',
     'shadcn-nuxt',
-    'nuxt-monaco-editor'
+    'nuxt-monaco-editor',
+    '@pinia/nuxt'
   ],
 
   monacoEditor: {

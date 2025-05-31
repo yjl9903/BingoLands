@@ -32,7 +32,7 @@ export default defineEventHandler(async (event) => {
       } else {
         return {
           status: 'error',
-          message: 'insert failed'
+          message: '禁止上传重复 Bingo'
         };
       }
     } catch (error) {

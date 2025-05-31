@@ -22,18 +22,17 @@ export type Inline =
   | string
   | {
       type: 'span' | 'a';
+      style?: string | Record<string, string>;
       attrs: {
         href?: string;
-        style?: string | Record<string, string>;
       };
       content: string;
     };
 
 export type Block = {
   type: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p';
-  attrs: {
-    style?: string | Record<string, string>;
-  };
+  style?: string | Record<string, string>;
+  attrs: {};
   content: Inline[];
 };
 
@@ -43,6 +42,8 @@ export type BingoGameTable = {
   rowCount: number;
 
   colCount: number;
+
+  style?: string | Record<string, string>;
 
   cells: BingoGameCell[][];
 };

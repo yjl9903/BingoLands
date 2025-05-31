@@ -6,10 +6,10 @@ const StyleSchema = z
 
 const InlineSchema = z.object({
   type: z.enum(['span', 'a']),
+  style: StyleSchema,
   attrs: z
     .object({
-      href: z.string().optional(),
-      style: StyleSchema
+      href: z.string().optional()
     })
     .passthrough()
     .default({}),
@@ -18,12 +18,8 @@ const InlineSchema = z.object({
 
 const BlockSchema = z.object({
   type: z.enum(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p']),
-  attrs: z
-    .object({
-      style: StyleSchema
-    })
-    .passthrough()
-    .default({}),
+  style: StyleSchema,
+  attrs: z.object({}).passthrough().default({}),
   content: z.union([
     z.null().transform(() => []),
     z.undefined().transform(() => []),
@@ -75,6 +71,7 @@ const GameTableSchema = z.object({
   type: z.enum(['bingo']),
   rowCount: z.number().gt(0).lte(100),
   colCount: z.number().gt(0).lte(100),
+  style: StyleSchema,
   cells: z.array(z.array(GameCellSchema).min(1).max(100)).min(1).max(100)
 });
 
