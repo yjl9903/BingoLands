@@ -16,7 +16,7 @@ if (!bingo.value) {
 <template>
   <Layout>
     <Head>
-      <Title>{{ bingo?.name ? `${bingo.name} | 动画宾果` : '动画宾果' }}</Title>
+      <Title>{{ bingo?.name ? `${bingo.name} | BingoLands` : 'BingoLands' }}</Title>
     </Head>
     <Bingo v-if="bingo" :content="bingo.content"></Bingo>
   </Layout>

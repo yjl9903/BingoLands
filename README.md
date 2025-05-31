@@ -1,75 +1,20 @@
-# Anime Bingo
+# BingoLands 宾果群岛
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![Group](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white)](https://t.me/bingolands)
+[![CI](https://github.com/yjl9903/BingoLands/actions/workflows/ci.yml/badge.svg)](https://github.com/yjl9903/BingoLands/actions/workflows/ci.yml)
 
-## Setup
+生成你自己的可分享, 交互的 Bingo! 游戏 → [BingoLands](https://bingo.animes.garden/)
 
-Make sure to install dependencies:
+## 如何配置 Bingo?
 
-```bash
-# npm
-npm install
+> 可视化编辑器 work in progress, 目前你可以把代码丢给 AI 来生成（x
 
-# pnpm
-pnpm install
+- **类型定义**: [bingo/types.ts](./bingo/types.ts)
+- **数据校验**: [bingo/schema.ts](./bingo/schema.ts)
+- **示例**
+  - **数据结构示例**: [assets/anime-data.json](./assets/anime-data.json), [assets/anime-data.yml](./assets/anime-data.yml)
+  - **抓取脚本示例**: [scripts/generate.ts](./scripts/generate.ts)
 
-# yarn
-yarn install
+## 开源协议
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+AGPL-3.0 License © 2025 [XLor](https://github.com/yjl9903)

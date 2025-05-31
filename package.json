@@ -1,5 +1,5 @@
 {
-  "name": "@animebing/monorepo",
+  "name": "@bingolands/monorepo",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -19,6 +19,7 @@
     "shadcn": "shadcn-vue"
   },
   "dependencies": {
+    "@giscus/vue": "^3.1.1",
     "@nuxt/content": "3.5.1",
     "@nuxt/fonts": "0.11.4",
     "@nuxt/icon": "1.13.0",

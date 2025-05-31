@@ -11,7 +11,7 @@ const props = withDefaults(defineProps<{}>(), {});
       <div class="main h-full flex items-center">
         <NuxtLink to="/" class="select-none flex items-center outline-none">
           <img src="/bulb.svg" class="h-8 w-8 mr-2 rotate--30" />
-          <div class="text-2xl font-quicksand font-bold lt-md:hidden">AnimeBingo</div>
+          <div class="text-2xl font-quicksand font-bold lt-md:hidden">BingoLands</div>
         </NuxtLink>
         <div class="flex-auto"></div>
         <div class="flex items-center">

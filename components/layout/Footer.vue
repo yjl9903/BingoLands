@@ -21,11 +21,11 @@
           <span
             class="i-carbon:chevron-right text-xl lt-sm:text-base text-main-900 font-bold select-none relative top-[2px]"
           ></span>
-          <a href="https://github.com/yjl9903/AnimeBingo" target="_blank" class="ml-2 lt-sm:ml-2"
+          <a href="https://github.com/yjl9903/BingoLands" target="_blank" class="ml-2 lt-sm:ml-2"
             >GitHub</a
           >
           <a
-            href="https://github.com/yjl9903/AnimeBingo/issues"
+            href="https://github.com/yjl9903/BingoLands/issues"
             target="_blank"
             class="ml-4 lt-sm:ml-2"
           >
@@ -43,9 +43,7 @@
           <a href="https://animes.garden" target="_blank" class="ml-2 lt-sm:ml-2"
             >AnimeGarden 动画资源聚合站</a
           >
-          <a href="https://t.me/animebingo_user" target="_blank" class="ml-4 lt-sm:ml-2">
-            Telegram
-          </a>
+          <a href="https://t.me/bingolands" target="_blank" class="ml-4 lt-sm:ml-2"> Telegram </a>
           <!-- <a
             href="https://animespace.onekuma.cn/animegarden/search"
             target="_blank"
