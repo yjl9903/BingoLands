@@ -13,9 +13,9 @@ useHead({
         <Giscus
           id="comments"
           repo="yjl9903/BingoLands"
-          repoId="R_kgDOLbiZ1A"
+          repoId="R_kgDOOzW99A"
           mapping="number"
-          term="7"
+          term="6"
           reactionsEnabled="0"
           emitMetadata="0"
           inputPosition="top"
