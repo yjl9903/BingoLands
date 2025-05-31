@@ -100,6 +100,14 @@ const tdStyle = computed((): CSSProperties => {
   @apply: p-2;
 }
 
+.table-cell-content > :first-child {
+  @apply: mt-0;
+}
+
+.table-cell-content > :last-child {
+  @apply: mb-0;
+}
+
 .table-cell[data-type='checkbox'] {
   @apply: cursor-pointer;
 }
