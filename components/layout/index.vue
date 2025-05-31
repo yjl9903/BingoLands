@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<{}>(), {});
     <div class="w-screen h-[64px]">
       <div class="main h-full flex items-center">
         <NuxtLink to="/" class="select-none flex items-center outline-none">
-          <img src="/favicon.svg" class="h-8 w-8 mr-2 rotate--30" />
+          <img src="/bulb.svg" class="h-8 w-8 mr-2 rotate--30" />
           <div class="text-2xl font-quicksand font-bold lt-md:hidden">AnimeBingo</div>
         </NuxtLink>
         <div class="flex-auto"></div>
