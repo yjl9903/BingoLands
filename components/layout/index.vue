@@ -8,11 +8,16 @@ const props = withDefaults(defineProps<{}>(), {});
 <template>
   <nav class="w-screen border-b border-b-gray-200 bg-white absolute top-0">
     <div class="w-screen h-[64px]">
-      <div class="main h-full flex items-center">
-        <NuxtLink to="/" class="select-none flex items-center outline-none">
+      <div class="main h-full flex items-center gap-4 lt-md:gap-2">
+        <nuxt-link to="/" class="select-none flex items-center outline-none">
           <img src="/bulb.svg" class="h-8 w-8 mr-2 rotate--30" />
           <div class="text-2xl font-quicksand font-bold lt-md:hidden">BingoLands</div>
-        </NuxtLink>
+        </nuxt-link>
+        <nuxt-link
+          to="/discussions"
+          class="inline-flex items-center h-[32px] px-2 font-bold rounded-md hover:bg-zinc-100"
+          ><span>讨论</span></nuxt-link
+        >
         <div class="flex-auto"></div>
         <div class="flex items-center">
           <nuxt-link to="/create">

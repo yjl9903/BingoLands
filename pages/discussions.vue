@@ -9,20 +9,18 @@ useHead({
 <template>
   <Layout>
     <ClientOnly>
-      <div class="pt-8">
-        <Giscus
-          id="comments"
-          repo="yjl9903/BingoLands"
-          repoId="R_kgDOOzW99A"
-          mapping="number"
-          term="6"
-          reactionsEnabled="0"
-          emitMetadata="0"
-          inputPosition="top"
-          theme="preferred_color_scheme"
-          lang="zh-CN"
-        />
-      </div>
+      <Giscus
+        id="comments"
+        repo="yjl9903/BingoLands"
+        repoId="R_kgDOOzW99A"
+        mapping="number"
+        term="6"
+        reactionsEnabled="0"
+        emitMetadata="0"
+        inputPosition="top"
+        theme="preferred_color_scheme"
+        lang="zh-CN"
+      />
     </ClientOnly>
   </Layout>
 </template>
