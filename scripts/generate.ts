@@ -25,7 +25,7 @@ const years = [
 
 const bingo = {
   name: '近 15 年 Bangumi 评分前 10 名',
-  header: [{ type: 'p', content: '选取近 15 年每年 Bangumi 评分前 10 名的动画, 你都看了吗?' }],
+  header: [{ type: 'h1', content: '选取近 15 年每年 Bangumi 评分前 10 名的动画, 你都看了吗?' }],
   game: {
     type: 'bingo',
     rowCount: years.length,
@@ -36,11 +36,17 @@ const bingo = {
 
 for (const year of years) {
   console.log(`Fetching ${year}`);
+
   const subs = await getTopSubjects(year, 10);
   const row: any[] = [];
   bingo.game.cells.push(row);
 
-  row.push({ type: 'content', content: '' + year });
+  row.push({
+    type: 'content',
+    attrs: { width: 40 },
+    styles: { default: 'font-weight:bold;color:white;background:#dc2626;' },
+    content: '' + year
+  });
   for (const sub of subs) {
     const name = sub.name_cn || sub.name || '';
     row.push({

@@ -21,7 +21,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -196,7 +201,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -371,7 +381,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -546,7 +561,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -721,7 +741,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -896,7 +921,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -1071,7 +1101,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -1246,7 +1281,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -1421,7 +1461,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -1596,7 +1641,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -1771,7 +1821,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -1946,7 +2001,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -2121,7 +2181,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -2296,7 +2361,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",
@@ -2471,7 +2541,12 @@
       [
         {
           "type": "content",
-          "styles": {},
+          "attrs": {
+            "width": "40"
+          },
+          "styles": {
+            "default": "font-weight:bold;color:white;background:#dc2626;"
+          },
           "content": [
             {
               "type": "p",

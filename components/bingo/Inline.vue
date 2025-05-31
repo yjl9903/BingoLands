@@ -5,7 +5,7 @@ const props = defineProps<{ node: Inline }>();
 
 const { node } = toRefs(props);
 
-const tag = typeof node.value === 'string' ? 'p' : node.value.attrs.href ? 'a' : node.value.type;
+const tag = typeof node.value === 'string' ? 'span' : node.value.attrs.href ? 'a' : node.value.type;
 
 const href = typeof node.value === 'string' ? undefined : node.value.attrs.href;
 

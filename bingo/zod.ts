@@ -52,6 +52,14 @@ const GameCellSchema = z.object({
   type: z.enum(['content', 'checkbox']),
   rowSpan: z.number().gte(0).optional(),
   colSpan: z.number().gte(0).optional(),
+  attrs: z
+    .object({
+      width: z.coerce.string().optional(),
+      height: z.coerce.string().optional(),
+      vertical: z.enum(['start', 'center', 'end']).optional(),
+      horizontal: z.enum(['start', 'center', 'end']).optional()
+    })
+    .optional(),
   styles: z
     .object({
       default: StyleSchema,

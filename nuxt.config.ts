@@ -53,7 +53,6 @@ export default defineNuxtConfig({
   ],
 
   modules: [
-    '@nuxt/ui',
     '@nuxt/content',
     '@nuxt/scripts',
     '@nuxt/image',
@@ -62,11 +61,23 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@unocss/nuxt',
     'unplugin-info/nuxt',
-    'unplugin-analytics/nuxt'
+    'unplugin-analytics/nuxt',
+    'shadcn-nuxt'
   ],
 
   unocss: {
     preflight: true
+  },
+  shadcn: {
+    /**
+     * Prefix for all the imported component
+     */
+    prefix: '',
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: './components/ui'
   },
   info: {
     meta: {

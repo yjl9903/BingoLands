@@ -54,6 +54,16 @@ export type BingoGameCell = {
 
   colSpan?: number;
 
+  attrs?: {
+    width?: number | string;
+
+    height?: number | string;
+
+    vertical?: 'center' | 'start' | 'end';
+
+    horizontal?: 'center' | 'start' | 'end';
+  };
+
   styles?: {
     default?: string | Record<string, string>;
     checked?: string | Record<string, string>;

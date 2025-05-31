@@ -24,3 +24,9 @@ const { header, game, footer } = content.value;
     </div>
   </div>
 </template>
+
+<style>
+.bingo-game {
+  @apply: w-full overflow-x-auto;
+}
+</style>
