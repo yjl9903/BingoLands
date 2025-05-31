@@ -66,6 +66,7 @@ export type BingoGameCell = {
 
   styles?: {
     default?: string | Record<string, string>;
+    hover?: string | Record<string, string>;
     checked?: string | Record<string, string>;
   };
 

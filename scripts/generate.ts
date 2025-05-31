@@ -51,7 +51,7 @@ for (const year of years) {
     const name = sub.name_cn || sub.name || '';
     row.push({
       type: 'checkbox',
-      styles: { default: '', checked: 'background:green;' },
+      styles: { default: '', hover: '', checked: 'background:green;color:white;' },
       content: name
     });
   }

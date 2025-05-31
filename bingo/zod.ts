@@ -63,6 +63,7 @@ const GameCellSchema = z.object({
   styles: z
     .object({
       default: StyleSchema,
+      hover: StyleSchema,
       checked: StyleSchema
     })
     .passthrough()

@@ -41,7 +41,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -57,7 +57,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -73,7 +73,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -89,7 +89,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -105,7 +105,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -121,7 +121,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -137,7 +137,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -153,7 +153,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -169,7 +169,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -185,7 +185,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -221,7 +221,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -237,7 +237,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -253,7 +253,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -269,7 +269,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -285,7 +285,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -301,7 +301,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -317,7 +317,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -333,7 +333,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -349,7 +349,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -365,7 +365,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -401,7 +401,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -417,7 +417,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -433,7 +433,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -449,7 +449,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -465,7 +465,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -481,7 +481,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -497,7 +497,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -513,7 +513,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -529,7 +529,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -545,7 +545,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -581,7 +581,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -597,7 +597,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -613,7 +613,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -629,7 +629,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -645,7 +645,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -661,7 +661,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -677,7 +677,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -693,7 +693,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -709,7 +709,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -725,7 +725,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -761,7 +761,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -777,7 +777,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -793,7 +793,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -809,7 +809,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -825,7 +825,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -841,7 +841,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -857,7 +857,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -873,7 +873,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -889,7 +889,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -905,7 +905,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -941,7 +941,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -957,7 +957,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -973,7 +973,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -989,7 +989,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1005,7 +1005,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1021,7 +1021,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1037,7 +1037,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1053,7 +1053,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1069,7 +1069,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1085,7 +1085,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1121,7 +1121,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1137,7 +1137,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1153,7 +1153,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1169,7 +1169,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1185,7 +1185,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1201,7 +1201,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1217,7 +1217,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1233,7 +1233,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1249,7 +1249,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1265,7 +1265,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1301,7 +1301,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1317,7 +1317,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1333,7 +1333,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1349,7 +1349,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1365,7 +1365,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1381,7 +1381,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1397,7 +1397,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1413,7 +1413,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1429,7 +1429,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1445,7 +1445,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1481,7 +1481,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1497,7 +1497,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1513,7 +1513,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1529,7 +1529,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1545,7 +1545,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1561,7 +1561,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1577,7 +1577,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1593,7 +1593,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1609,7 +1609,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1625,7 +1625,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1661,7 +1661,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1677,7 +1677,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1693,7 +1693,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1709,7 +1709,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1725,7 +1725,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1741,7 +1741,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1757,7 +1757,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1773,7 +1773,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1789,7 +1789,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1805,7 +1805,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1841,7 +1841,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1857,7 +1857,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1873,7 +1873,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1889,7 +1889,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1905,7 +1905,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1921,7 +1921,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1937,7 +1937,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1953,7 +1953,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1969,7 +1969,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -1985,7 +1985,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2021,7 +2021,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2037,7 +2037,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2053,7 +2053,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2069,7 +2069,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2085,7 +2085,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2101,7 +2101,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2117,7 +2117,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2133,7 +2133,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2149,7 +2149,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2165,7 +2165,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2201,7 +2201,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2217,7 +2217,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2233,7 +2233,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2249,7 +2249,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2265,7 +2265,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2281,7 +2281,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2297,7 +2297,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2313,7 +2313,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2329,7 +2329,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2345,7 +2345,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2381,7 +2381,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2397,7 +2397,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2413,7 +2413,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2429,7 +2429,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2445,7 +2445,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2461,7 +2461,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2477,7 +2477,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2493,7 +2493,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2509,7 +2509,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2525,7 +2525,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2561,7 +2561,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2577,7 +2577,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2593,7 +2593,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2609,7 +2609,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2625,7 +2625,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2641,7 +2641,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2657,7 +2657,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2673,7 +2673,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2689,7 +2689,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
@@ -2705,7 +2705,7 @@
           "type": "checkbox",
           "styles": {
             "default": "",
-            "checked": "background:green;"
+            "checked": "background:green;color:white;"
           },
           "content": [
             {
