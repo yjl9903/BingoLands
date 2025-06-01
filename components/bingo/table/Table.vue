@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { BingoGameTable } from 'bingolands';
+import type { BingoTable } from 'bingolands';
 
 import TableCell from './TableCell.vue';
 
-const props = defineProps<{ node: BingoGameTable }>();
+const props = defineProps<{ node: BingoTable }>();
 
 const { node } = toRefs(props);
 
@@ -14,8 +14,15 @@ const withBorder = computed(() => true);
   <table :class="['bingo-table', withBorder && 'with-border']">
     <thead></thead>
     <tbody>
-      <tr v-for="(row, index) in node.cells" :key="index" class="table-row">
-        <TableCell v-for="(cell, index) in row" :key="index" :node="cell" class="table-cell">
+      <tr v-for="(row, rIndex) in node.cells" :key="rIndex" class="table-row">
+        <TableCell
+          v-for="(cell, cIndex) in row"
+          :key="cIndex"
+          :node="cell"
+          class="table-cell"
+          :row="rIndex"
+          :col="cIndex"
+        >
         </TableCell>
       </tr>
     </tbody>
@@ -27,7 +34,6 @@ const withBorder = computed(() => true);
   /* @apply: w-full overflow-x-auto; */
   @apply: my-8;
   @apply: text-sm;
-  @apply: bg-white;
 }
 
 .bingo-table.with-border {

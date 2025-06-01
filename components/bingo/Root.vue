@@ -2,29 +2,54 @@
 import type { BingoContent } from 'bingolands';
 
 import GameC from './Game.vue';
-import BlockC from './basic/Block.vue';
+import ShareC from './Share.vue';
+import HeaderC from './Header.vue';
+import FooterC from './Footer.vue';
 
-const props = defineProps<{ content: BingoContent }>();
+import { provideBingoContext } from './context';
 
-const { content } = toRefs(props);
+const props = defineProps<{ hash: string; content: BingoContent }>();
+
+const { hash, content } = toRefs(props);
+
+const bingoRef = useTemplateRef('root');
 
 const { header, game, footer } = content.value;
+const ctx = provideBingoContext(hash.value, content.value);
+
+const dynamicStyle = computed(() => {
+  const styles = content.value.styles ?? {};
+  const rules: string[] = [];
+  for (const [selector, body] of Object.entries(styles)) {
+    const record = Object.entries(body);
+    if (record.length === 0) continue;
+    const text = record.map(([k, v]) => `${k}:${v};`).join('');
+    rules.push(`.${ctx.scoped}${selector} { ${text} }`);
+  }
+  return rules.join('\n');
+});
+
+useHead({ style: [dynamicStyle] });
+
+watch(
+  () => [hash.value, content.value] as const,
+  ([hash, content]) => {
+    ctx.refresh(hash, content);
+  }
+);
+
+watch(bingoRef, (ref) => {
+  ctx.dom.value = ref ?? undefined;
+});
 </script>
 
 <template>
-  <div class="bingo">
-    <div class="bingo-header">
-      <BlockC v-for="(child, index) in header" :key="index" :node="child"></BlockC>
+  <div>
+    <div class="bingo-root" ref="root">
+      <HeaderC :blocks="header"></HeaderC>
+      <GameC :game="game"></GameC>
+      <FooterC :blocks="footer"></FooterC>
     </div>
-    <GameC :game="game"></GameC>
-    <div class="bingo-footer">
-      <BlockC v-for="(child, index) in footer" :key="index" :node="child"></BlockC>
-    </div>
+    <ShareC></ShareC>
   </div>
 </template>
-
-<style>
-.bingo-game {
-  @apply: w-full overflow-x-auto;
-}
-</style>

@@ -1,5 +1,3 @@
-export * from './zod';
-
 export * from './parser';
 
-export * from './types';
+export type { BingoContentInit, BlockInit, InlineInit } from './init';

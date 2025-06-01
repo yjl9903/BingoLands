@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { parse } from 'yaml';
 import { toast } from 'vue-sonner';
 
-import { type BingoContent, BingoContentSchema } from 'bingolands';
+import { type BingoContent, parseYamlContent, CompatibilityVersion } from 'bingolands';
 
-import TemplateBingo from '~/assets/anime-data.yml?raw';
+import TemplateBingo from '~/assets/anime-data.yaml?raw';
 
 import { Bingo } from '~/components/bingo';
 import { useAuthUuid } from '~/stores/auth';
@@ -21,14 +20,14 @@ const onSubmit = async () => {
   created.value = undefined;
 
   try {
-    const json = parse(text.value);
-    const parsed = BingoContentSchema.safeParse(json);
+    const parsed = parseYamlContent(text.value);
     if (parsed.success) {
       const resp = await $fetch('/api/bingo', {
         method: 'POST',
         body: {
           auth: auth.getOrSetAuth(),
-          content: parsed.data
+          content: parsed.content,
+          compatibility: CompatibilityVersion
         }
       });
       console.log(resp);
@@ -66,10 +65,9 @@ const previewContent = ref<BingoContent | undefined>(undefined);
 const onPreview = async () => {
   try {
     tab.value = 'preview';
-    const json = parse(text.value);
-    const parsed = BingoContentSchema.safeParse(json);
+    const parsed = parseYamlContent(text.value);
     if (parsed.success) {
-      previewContent.value = parsed.data as BingoContent;
+      previewContent.value = parsed.content;
     } else {
       console.log(parsed.error);
       previewError.value = JSON.stringify(parsed.error, null, 2);
@@ -107,7 +105,7 @@ const onPreivewExit = () => {
         <Button @click="onPreivewExit">编辑</Button>
       </div>
       <div class="border-b my-4"></div>
-      <Bingo v-if="previewContent" :content="previewContent"></Bingo>
+      <Bingo v-if="previewContent" hash="create" :content="previewContent"></Bingo>
       <div v-if="previewError">
         <pre><code>{{ previewError }}</code></pre>
       </div>

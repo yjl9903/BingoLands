@@ -1,16 +1,16 @@
-export interface BingoContent {
+export interface BingoContentInit {
   name: string;
 
-  header: Block[];
+  header?: string | InlineInit | BlockInit | BlockInit[];
 
-  game: BingoTable;
+  game: BingoTableInit;
 
-  footer: Block[];
+  footer?: string | InlineInit | BlockInit | BlockInit[];
 
   /**
    * Class name (:hover, [selected])? -> CSS property -> CSS value
    */
-  styles?: Record<string, Record<string, string>>;
+  styles?: Record<string, string | Record<string, string>>;
 
   /**
    * Define variables to aggerate information
@@ -27,14 +27,14 @@ export type InlineAttrs = {
   href?: string;
 };
 
-export type Inline = {
+export type InlineInit = {
   type: 'span' | 'a';
 
-  class?: string[];
+  class?: string | string[];
 
-  style?: Record<string, string>;
+  style?: string | Record<string, string>;
 
-  attrs: InlineAttrs;
+  attrs?: InlineAttrs;
 
   /**
    * Reference to a variable, override content if it exists
@@ -49,19 +49,19 @@ export type Inline = {
 
 export type BlockAttrs = {};
 
-export type Block = {
+export type BlockInit = {
   type: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p';
-  class?: string[];
-  style?: Record<string, string>;
-  attrs: BlockAttrs;
-  content: Inline[];
+  class?: string | string[];
+  style?: string | Record<string, string>;
+  attrs?: BlockAttrs;
+  content: string | InlineInit | InlineInit[];
 };
 
-export type BingoTable = {
+export type BingoTableInit = {
   type: 'bingo';
-  class?: string[];
-  style?: Record<string, string>;
-  cells: BingoTableCell[][];
+  class?: string | string[];
+  style?: string | Record<string, string>;
+  cells: BingoTableCellInit[][];
 };
 
 export type BingoTableCellAttrs = {
@@ -71,22 +71,22 @@ export type BingoTableCellAttrs = {
   horizontal?: 'center' | 'start' | 'end';
 };
 
-export type BingoTableCell = {
+export type BingoTableCellInit = {
   type: 'content' | 'checkbox';
 
   rowspan?: number;
 
   colspan?: number;
 
-  class?: string[];
+  class?: string | string[];
 
   attrs?: BingoTableCellAttrs;
 
-  style?: Record<string, string>;
+  style?: string | Record<string, string>;
 
   data?: Record<string, CellValue>;
 
-  content: Block[];
+  content: string | InlineInit | BlockInit | BlockInit[];
 };
 
 export type VariableDefinition = {

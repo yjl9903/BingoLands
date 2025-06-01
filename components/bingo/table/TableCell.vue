@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import type { CSSProperties } from 'vue';
-
-import type { BingoGameCell } from 'bingolands';
+import type { BingoTableCell } from 'bingolands';
 
 import BlockC from '../basic/Block.vue';
+import { injectBingoContext } from '../context';
 
-const props = defineProps<{ node: BingoGameCell }>();
+const props = defineProps<{ node: BingoTableCell; row: number; col: number }>();
 
-const { node } = toRefs(props);
+const { node, row, col } = toRefs(props);
 
-const hovered = ref(false);
+const ctx = injectBingoContext();
+
 const checked = ref(false);
 
 const width = computed(() => {
@@ -17,34 +17,14 @@ const width = computed(() => {
   return Number.isNaN(width) ? undefined : width;
 });
 
-const rowSpan = computed(() => node.value.rowSpan);
-const colSpan = computed(() => node.value.colSpan);
+const rowSpan = computed(() => node.value.rowspan);
+const colSpan = computed(() => node.value.colspan);
 const verticalAlign = computed(() => node.value.attrs?.vertical || 'center');
 const horizontalAlign = computed(() => node.value.attrs?.horizontal || 'center');
 
-const defaultStyle = computed(() => {
-  const dft = parseStyle(node.value.styles?.default);
-  return { ...dft };
+const cellStyle = computed(() => {
+  return node.value.style;
 });
-const hoverStyle = computed(() => {
-  const hover = parseStyle(node.value.styles?.hover);
-  if (node.value.type === 'checkbox') {
-    return { ...hover };
-  } else {
-    return { ...hover };
-  }
-});
-const checkedStyle = computed(() => {
-  const user = parseStyle(node.value.styles?.checked);
-  return { ...defaultStyle.value, ...user };
-});
-
-const onMouseEnter = () => {
-  hovered.value = true;
-};
-const onMouseLeave = () => {
-  hovered.value = false;
-};
 
 const onClick = () => {
   if (node.value.type === 'checkbox') {
@@ -53,43 +33,20 @@ const onClick = () => {
     return;
   }
 };
-
-const tdStyle = computed((): CSSProperties => {
-  if (hovered.value) {
-    if (checked.value) {
-      return {
-        ...checkedStyle.value,
-        ...hoverStyle.value
-      };
-    } else {
-      return {
-        ...defaultStyle.value,
-        ...hoverStyle.value
-      };
-    }
-  } else {
-    if (checked.value) {
-      return checkedStyle.value;
-    } else {
-      return defaultStyle.value;
-    }
-  }
-});
 </script>
 
 <template>
   <td
-    class="table-cell"
+    :class="['table-cell', ...(node.class?.map((c) => ctx.scoped + c) ?? [])]"
+    :style="cellStyle"
     :width="width"
-    :style="tdStyle"
     :rowspan="rowSpan"
     :colspan="colSpan"
     :data-type="node.type"
+    :checked="checked ? '' : undefined"
     @click="onClick"
-    @mouseenter="onMouseEnter"
-    @mouseleave="onMouseLeave"
   >
-    <div class="table-cell-content w-full">
+    <div :class="['table-cell-content']">
       <BlockC v-for="(child, index) in node.content" :key="index" :node="child"></BlockC>
     </div>
   </td>
@@ -98,6 +55,10 @@ const tdStyle = computed((): CSSProperties => {
 <style>
 .table-cell {
   @apply: p-2;
+}
+
+.table-cell-content {
+  @apply: w-full;
 }
 
 .table-cell-content > :first-child {

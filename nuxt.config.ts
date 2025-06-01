@@ -46,8 +46,16 @@ export default defineNuxtConfig({
 
   components: [
     {
-      path: '~/components',
+      path: '~/components/ui',
       pathPrefix: false
+    },
+    {
+      path: '~/components/bingo/table',
+      pathPrefix: true
+    },
+    {
+      path: '~/components/bingo/basic',
+      pathPrefix: true
     }
   ],
 

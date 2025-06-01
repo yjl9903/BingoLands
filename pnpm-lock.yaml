@@ -180,6 +180,9 @@ importers:
       ohash:
         specifier: ^2.0.11
         version: 2.0.11
+      style-to-object:
+        specifier: ^1.0.8
+        version: 1.0.8
       yaml:
         specifier: ^2.8.0
         version: 2.8.0

@@ -12,7 +12,7 @@
 - **类型定义**: [bingo/types.ts](./bingo/types.ts)
 - **数据校验**: [bingo/schema.ts](./bingo/schema.ts)
 - **示例**
-  - **数据结构示例**: [assets/anime-data.json](./assets/anime-data.json), [assets/anime-data.yml](./assets/anime-data.yml)
+  - **数据结构示例**: [assets/anime-data.json](./assets/anime-data.json), [assets/anime-data.yaml](./assets/anime-data.yaml)
   - **抓取脚本示例**: [examples/bangumi-top.ts](./examples/bangumi-top.ts), [examples/generate-bingo.ts](./examples/generate-bingo.ts)
 
 ## 开源协议

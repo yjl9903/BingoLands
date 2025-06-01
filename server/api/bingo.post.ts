@@ -1,24 +1,24 @@
 import { bingos } from '~/drizzle/schema';
 import {
   type BingoContent,
-  BingoContentSchema,
-  CompatibilityVersion,
-  hashBingoContent
+  hashBingoContent,
+  normalizeContentInit,
+  CompatibilityVersion
 } from 'bingolands';
 
 import { connectDatabase } from '../utils/database';
 
 export default defineEventHandler(async (event) => {
-  return { status: 'error', message: '维护中' };
+  const body = await readBody<{ auth: string; content: BingoContent; compatibility?: number }>(
+    event
+  );
 
-  const body = await readBody<{ auth: string; content: BingoContent }>(event);
-
-  const parsed = BingoContentSchema.safeParse(body.content);
+  const parsed = normalizeContentInit(body.content);
 
   if (body.auth && parsed.success) {
     try {
       const now = new Date();
-      const content = parsed.data as any as BingoContent;
+      const content = parsed.content;
       const hash = await hashBingoContent(content);
 
       const db = await connectDatabase();
@@ -33,7 +33,12 @@ export default defineEventHandler(async (event) => {
             content,
             createdAt: now,
             updatedAt: now,
-            compatibility: CompatibilityVersion
+            compatibility:
+              body.compatibility &&
+              body.compatibility >= 0 &&
+              body.compatibility <= CompatibilityVersion
+                ? body.compatibility
+                : CompatibilityVersion
           }
         ])
         .returning({ id: bingos.id, hash: bingos.hash })
@@ -50,7 +55,7 @@ export default defineEventHandler(async (event) => {
       } else {
         return {
           status: 'error',
-          message: '禁止上传重复 Bingo'
+          message: ['禁止上传重复 Bingo']
         };
       }
     } catch (error) {
@@ -58,13 +63,20 @@ export default defineEventHandler(async (event) => {
 
       return {
         status: 'error',
-        message: (error as any).message || 'unknown error'
+        message: [(error as any).message || '服务内部错误']
       };
     }
   } else {
-    return {
-      status: 'error',
-      error: parsed.error
-    };
+    if (!parsed.success) {
+      return {
+        status: 'error',
+        error: parsed.error
+      };
+    } else {
+      return {
+        status: 'error',
+        error: ['未传入凭据']
+      };
+    }
   }
 });
