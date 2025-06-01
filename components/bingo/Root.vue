@@ -2,7 +2,7 @@
 import type { BingoContent } from 'bingolands';
 
 import GameC from './Game.vue';
-import BlockC from './Block.vue';
+import BlockC from './basic/Block.vue';
 
 const props = defineProps<{ content: BingoContent }>();
 

@@ -4,7 +4,7 @@ import { domToBlob } from 'modern-screenshot';
 
 import type { BingoGameTable } from 'bingolands';
 
-import TableC from './Table.vue';
+import TableC from './table/Table.vue';
 
 const props = defineProps<{ game: BingoGameTable }>();
 

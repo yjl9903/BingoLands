@@ -9,7 +9,7 @@ const tag = typeof node.value === 'string' ? 'span' : node.value.attrs.href ? 'a
 
 const href = typeof node.value === 'string' ? undefined : node.value.attrs.href;
 
-const style = typeof node.value === 'string' ? '' : node.value.attrs.style;
+const style = typeof node.value === 'string' ? '' : node.value.style;
 
 const text = typeof node.value === 'string' ? node.value : node.value.content;
 </script>

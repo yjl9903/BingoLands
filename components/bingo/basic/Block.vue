@@ -9,7 +9,7 @@ const { node } = toRefs(props);
 </script>
 
 <template>
-  <component :is="node.type" :style="node.attrs.style" class="block">
+  <component :is="node.type" :style="node.style" class="block">
     <InlineC v-for="(child, index) in node.content" :key="index" :node="child"></InlineC>
   </component>
 </template>

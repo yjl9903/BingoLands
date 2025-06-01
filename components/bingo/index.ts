@@ -1,1 +1,1 @@
-export { default as Bingo } from './Bingo.vue';
+export { default as Bingo } from './Root.vue';

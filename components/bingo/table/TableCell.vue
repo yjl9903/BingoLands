@@ -3,7 +3,7 @@ import type { CSSProperties } from 'vue';
 
 import type { BingoGameCell } from 'bingolands';
 
-import BlockC from './Block.vue';
+import BlockC from '../basic/Block.vue';
 
 const props = defineProps<{ node: BingoGameCell }>();
 
