@@ -26,13 +26,17 @@ const cellStyle = computed(() => {
   return node.value.style;
 });
 
+const dispose = ctx.runtime.watchState(row.value, col.value, (state) => {
+  checked.value = state.checked;
+});
+
 const onClick = () => {
-  if (node.value.type === 'checkbox') {
-    checked.value = !checked.value;
-  } else if (node.value.type === 'content') {
-    return;
-  }
+  ctx.runtime.select(row.value, col.value);
 };
+
+onUnmounted(() => {
+  dispose?.();
+});
 </script>
 
 <template>

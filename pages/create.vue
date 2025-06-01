@@ -55,8 +55,8 @@ const getSharedLink = (hash: string) => {
   link.pathname = `/bingo/${hash}`;
   return link.toString();
 };
-const copyLink = async (hash: string) => {
-  const link = getSharedLink(hash);
+const copyLink = async () => {
+  const link = getSharedLink(created.value?.hash!);
   await navigator.clipboard.writeText(link);
 };
 
