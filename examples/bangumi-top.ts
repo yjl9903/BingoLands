@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 
-import { BingoContentSchema } from '../bingo';
+import { BingoContentSchema } from 'bingolands';
+
+import { type SimpleTableRow, generateSimpleBingo } from './generate-simple-bingo';
 
 async function getTopSubjects(year: number, kth: number) {
   const params = new URLSearchParams();
@@ -23,41 +25,25 @@ const years = [
   2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010
 ].reverse();
 
-const bingo = {
-  name: '近 15 年 Bangumi 评分前 10 名',
-  header: [{ type: 'h1', content: '选取近 15 年每年 Bangumi 评分前 10 名的动画, 你都看了吗?' }],
-  game: {
-    type: 'bingo',
-    rowCount: years.length,
-    colCount: 10 + 1,
-    cells: [] as any[]
-  }
-};
+const rows: SimpleTableRow[] = [];
 
 for (const year of years) {
   console.log(`Fetching ${year}`);
 
   const subs = await getTopSubjects(year, 10);
-  const row: any[] = [];
-  bingo.game.cells.push(row);
+  const items: string[] = [];
+  rows.push({ label: '' + year, items });
 
-  row.push({
-    type: 'content',
-    attrs: { width: 40 },
-    styles: { default: 'font-weight:bold;color:white;background:#dc2626;' },
-    content: '' + year
-  });
   for (const sub of subs) {
     const name = sub.name_cn || sub.name || '';
-    row.push({
-      type: 'checkbox',
-      styles: { default: '', hover: '', checked: 'background:green;color:white;' },
-      content: name
-    });
+    const score = sub.rating.score;
+    items.push(name + ' ' + score);
   }
 }
 
-const parsed = BingoContentSchema.safeParse(bingo);
+const parsed = BingoContentSchema.safeParse(
+  generateSimpleBingo('近 15 年的 Bangumi 高分动画', '近 15 年的 Bangumi 高分动画, 你都看了吗?', rows)
+);
 
 if (parsed.success) {
   fs.promises.writeFile('./assets/anime-data.json', JSON.stringify(parsed.data, null, 2), 'utf-8');

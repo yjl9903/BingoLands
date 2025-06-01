@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { stringify } from 'yaml';
 
-import { BingoContentSchema } from '../bingo';
+import { BingoContentSchema } from 'bingolands';
 
 const filepath = './assets/anime-data.json';
 

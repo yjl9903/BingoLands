@@ -1,10 +1,10 @@
-interface GenerateTableRow {
+export interface SimpleTableRow {
   label: string;
 
   items: string[];
 }
 
-function generateBingo(name: string, heading: string, table: GenerateTableRow[]) {
+export function generateSimpleBingo(name: string, heading: string, table: SimpleTableRow[]) {
   const bingo = {
     name,
     header: [{ type: 'h1', content: heading }],
