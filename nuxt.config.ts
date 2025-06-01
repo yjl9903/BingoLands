@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   },
 
   alias: {
-    binglands: fileURLToPath(new URL('./packages/bingolands/src/index.ts', import.meta.url))
+    bingolands: fileURLToPath(new URL('./packages/bingolands/src/index.ts', import.meta.url))
   },
 
   nitro: {
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
   ],
 
   modules: [
-    '@nuxt/content',
+    // '@nuxt/content',
     '@nuxt/scripts',
     '@nuxt/image',
     '@nuxt/icon',
