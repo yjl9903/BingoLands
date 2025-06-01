@@ -11,6 +11,9 @@ const data = AnimeData as BingoContent;
 
 <template>
   <Layout>
+    <Head>
+      <Title>{{ `Bangumi 高分动画宾果 | BingoLands` }}</Title>
+    </Head>
     <Bingo :content="data"></Bingo>
   </Layout>
 </template>
