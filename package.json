@@ -8,7 +8,7 @@
     "build:packages": "turbo run build",
     "cloudflare:build": "nuxt build --preset=cloudflare_pages",
     "cloudflare:deploy": "wrangler --cwd dist/ pages deploy",
-    "db:generate": "drizzle-kit generate:sqlite",
+    "db:generate": "drizzle-kit generate",
     "db:prepare:dev": "tsx drizzle/dev/migrate.ts",
     "dev": "nuxt dev",
     "drizzle-kit": "drizzle-kit",

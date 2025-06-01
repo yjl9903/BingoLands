@@ -43,11 +43,7 @@ for (const year of years) {
 }
 
 const parsed = BingoContentSchema.safeParse(
-  generateSimpleBingo(
-    'Bangumi 高分动画宾果',
-    '自 21 世纪来的 Bangumi 高分动画, 你都看了吗?',
-    rows
-  )
+  generateSimpleBingo('Bangumi 高分动画宾果', '自 21 世纪来的 Bangumi 高分动画, 你都看了吗?', rows)
 );
 
 if (parsed.success) {

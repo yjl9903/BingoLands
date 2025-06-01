@@ -1,75 +1,102 @@
-export interface Bingo {
-  hash: string;
-
-  name: string;
-
-  content: BingoContent;
-}
-
 export interface BingoContent {
   name: string;
 
   header: Block[];
 
-  game: BingoGameTable;
+  game: BingoTable;
 
   footer: Block[];
 
+  /**
+   * Class name (:hover, [selected])? -> CSS property -> CSS value
+   */
+  styles?: Record<string, Record<string, string>>;
+
+  /**
+   * Define variables to aggerate information
+   */
+  variables: Record<string, VariableDefinition>;
+
+  /**
+   * Other information
+   */
   meta?: Record<string, string>;
 }
 
-export type Inline =
-  | string
-  | {
-      type: 'span' | 'a';
-      style?: string | Record<string, string>;
-      attrs: {
-        href?: string;
-      };
-      content: string;
-    };
+export type InlineAttrs = {
+  href?: string;
+};
+
+export type Inline = {
+  type: 'span' | 'a';
+
+  class?: string[];
+
+  style?: Record<string, string>;
+
+  attrs: InlineAttrs;
+
+  /**
+   * Reference to a variable, override content if it exists
+   */
+  reference?: string;
+
+  /**
+   * Text content
+   */
+  content: string;
+};
+
+export type BlockAttrs = {};
 
 export type Block = {
   type: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p';
-  style?: string | Record<string, string>;
-  attrs: {};
+  class?: string[];
+  style?: Record<string, string>;
+  attrs: BlockAttrs;
   content: Inline[];
 };
 
-export type BingoGameTable = {
+export type BingoTable = {
   type: 'bingo';
-
-  rowCount: number;
-
-  colCount: number;
-
-  style?: string | Record<string, string>;
-
-  cells: BingoGameCell[][];
+  class?: string[];
+  style?: Record<string, string>;
+  cells: BingoTableCell[][];
 };
 
-export type BingoGameCell = {
+export type BingoTableCellAttrs = {
+  width?: number | string;
+  height?: number | string;
+  vertical?: 'center' | 'start' | 'end';
+  horizontal?: 'center' | 'start' | 'end';
+};
+
+export type BingoTableCell = {
   type: 'content' | 'checkbox';
 
   rowSpan?: number;
 
   colSpan?: number;
 
-  attrs?: {
-    width?: number | string;
+  class?: string[];
 
-    height?: number | string;
+  attrs?: BingoTableCellAttrs;
 
-    vertical?: 'center' | 'start' | 'end';
+  style?: Record<string, string>;
 
-    horizontal?: 'center' | 'start' | 'end';
-  };
-
-  styles?: {
-    default?: string | Record<string, string>;
-    hover?: string | Record<string, string>;
-    checked?: string | Record<string, string>;
-  };
+  data?: Record<string, number | string>;
 
   content: Block[];
 };
+
+export type VariableDefinition = {
+  type: 'number';
+  fixed?: number;
+
+  /**
+   * Support: sum(variable), avg(variable)
+   */
+  formula: string;
+};
+
+export type VariableValue = number | string;

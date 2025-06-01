@@ -1,5 +1,10 @@
 import { bingos } from '~/drizzle/schema';
-import { type BingoContent, BingoContentSchema, hashBingoContent } from 'bingolands';
+import {
+  type BingoContent,
+  BingoContentSchema,
+  CompatibilityVersion,
+  hashBingoContent
+} from 'bingolands';
 
 import { connectDatabase } from '../utils/database';
 
@@ -10,14 +15,25 @@ export default defineEventHandler(async (event) => {
 
   if (body.auth && parsed.success) {
     try {
-      const content = parsed.data as BingoContent;
+      const now = new Date();
+      const content = parsed.data as any as BingoContent;
       const hash = await hashBingoContent(content);
 
       const db = await connectDatabase();
 
       const resp = await db
         .insert(bingos)
-        .values([{ hash, auth: body.auth, name: content.name, content }])
+        .values([
+          {
+            hash,
+            auth: body.auth,
+            name: content.name,
+            content,
+            createdAt: now,
+            updatedAt: now,
+            compatibility: CompatibilityVersion
+          }
+        ])
         .returning({ id: bingos.id, hash: bingos.hash })
         .onConflictDoNothing()
         .execute();
