@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import Giscus from '@giscus/vue';
 
+import Layout from '~/components/layout/index.vue';
+
 useHead({
   title: '讨论区 | BingoLands'
 });

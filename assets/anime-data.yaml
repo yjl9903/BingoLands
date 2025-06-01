@@ -3,7 +3,7 @@ header:
   - type: h1
     content:
       - type: span
-        content: 自 21 世纪来的 Bangumi 高分动画, 你都看了吗?
+        content: 近年来的 Bangumi 高分动画, 你都看了吗?
 game:
   type: bingo
   cells:
@@ -834,19 +834,7 @@ game:
           value: 7.5
 footer:
   - type: p
-    content:
-      - type: span
-        content: "你看过 "
-      - type: span
-        reference: count
-        content: ""
-      - type: span
-        content: " 部动画, 平均评分是 "
-      - type: span
-        reference: avg
-        content: ""
-      - type: span
-        content: 分
+    content: []
 variables:
   sum:
     type: number

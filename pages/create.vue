@@ -5,6 +5,7 @@ import { type BingoContent, parseYamlContent, CompatibilityVersion } from 'bingo
 
 import TemplateBingo from '~/assets/anime-data.yaml?raw';
 
+import Layout from '~/components/layout/index.vue';
 import { Bingo } from '~/components/bingo';
 import { useAuthUuid } from '~/stores/auth';
 

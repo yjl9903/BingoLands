@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Layout from '~/components/layout/index.vue';
 import { Bingo } from '~/components/bingo';
 
 const route = useRoute();

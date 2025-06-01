@@ -45,7 +45,7 @@ for (const year of years) {
 
 const generated = generateSimpleBingo(
   'Bangumi 高分动画宾果',
-  [{ type: 'span', content: '自 21 世纪来的 Bangumi 高分动画, 你都看了吗?' }],
+  [{ type: 'span', content: '近年来的 Bangumi 高分动画, 你都看了吗?' }],
   [
     // { type: 'span', style: 'font-weight:bold;', content: '你看过 ' },
     // { type: 'span', style: 'font-weight:bold;', reference: 'count', content: '' },

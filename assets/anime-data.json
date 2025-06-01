@@ -12,7 +12,7 @@
           "class": [],
           "style": {},
           "attrs": {},
-          "content": "自 21 世纪来的 Bangumi 高分动画, 你都看了吗?"
+          "content": "近年来的 Bangumi 高分动画, 你都看了吗?"
         }
       ]
     }
@@ -4019,45 +4019,7 @@
       "class": [],
       "style": {},
       "attrs": {},
-      "content": [
-        {
-          "type": "span",
-          "class": [],
-          "style": {},
-          "attrs": {},
-          "content": "你看过 "
-        },
-        {
-          "type": "span",
-          "class": [],
-          "style": {},
-          "attrs": {},
-          "reference": "count",
-          "content": ""
-        },
-        {
-          "type": "span",
-          "class": [],
-          "style": {},
-          "attrs": {},
-          "content": " 部动画, 平均评分是 "
-        },
-        {
-          "type": "span",
-          "class": [],
-          "style": {},
-          "attrs": {},
-          "reference": "avg",
-          "content": ""
-        },
-        {
-          "type": "span",
-          "class": [],
-          "style": {},
-          "attrs": {},
-          "content": "分"
-        }
-      ]
+      "content": []
     }
   ],
   "styles": {
