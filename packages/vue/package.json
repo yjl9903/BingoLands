@@ -40,5 +40,8 @@
   },
   "dependencies": {
     "bingolands": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.16"
   }
 }
