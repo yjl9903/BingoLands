@@ -5,5 +5,5 @@ import 'dotenv/config';
 export default {
   dialect: 'sqlite',
   schema: './drizzle/schema/',
-  out: './drizzle/migrations',
+  out: './drizzle/migrations'
 } satisfies Config;

@@ -22,7 +22,8 @@ async function getTopSubjects(year: number, kth: number) {
 }
 
 const years = [
-  2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010
+  2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009,
+  2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000
 ].reverse();
 
 const rows: SimpleTableRow[] = [];
@@ -42,7 +43,11 @@ for (const year of years) {
 }
 
 const parsed = BingoContentSchema.safeParse(
-  generateSimpleBingo('近 15 年的 Bangumi 高分动画', '近 15 年的 Bangumi 高分动画, 你都看了吗?', rows)
+  generateSimpleBingo(
+    'Bangumi 高分动画宾果',
+    '自 21 世纪来的 Bangumi 高分动画, 你都看了吗?',
+    rows
+  )
 );
 
 if (parsed.success) {
