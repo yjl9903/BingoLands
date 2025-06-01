@@ -37,7 +37,7 @@ for (const year of years) {
   for (const sub of subs) {
     const name = sub.name_cn || sub.name || '';
     const score = sub.rating.score;
-    items.push(name + ' ' + score);
+    items.push(name + ' / ' + score);
   }
 }
 
