@@ -1,0 +1,44 @@
+{
+  "name": "@bingolands/vue",
+  "version": "0.0.1",
+  "description": "BingoLands Vue renderer",
+  "keywords": [
+    "bingo",
+    "render",
+    "vue"
+  ],
+  "homepage": "https://github.com/yjl9903/BingoLands#readme",
+  "bugs": {
+    "url": "https://github.com/yjl9903/BingoLands/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjl9903/BingoLands.git"
+  },
+  "license": "AGPL-3.0",
+  "author": "XLor",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "test": "vitest",
+    "test:ci": "vitest --run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "bingolands": "workspace:*"
+  }
+}

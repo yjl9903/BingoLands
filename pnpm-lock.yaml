@@ -184,6 +184,12 @@ importers:
         specifier: ^3.25.32
         version: 3.25.42
 
+  packages/vue:
+    dependencies:
+      bingolands:
+        specifier: workspace:*
+        version: link:../bingolands
+
 packages:
 
   '@ampproject/remapping@2.3.0':

@@ -21,7 +21,8 @@ export default defineNuxtConfig({
   },
 
   alias: {
-    bingolands: fileURLToPath(new URL('./packages/bingolands/src/index.ts', import.meta.url))
+    bingolands: fileURLToPath(new URL('./packages/bingolands/src/index.ts', import.meta.url)),
+    '@bingolands/vue': fileURLToPath(new URL('./packages/vue/src/index.ts', import.meta.url))
   },
 
   nitro: {
