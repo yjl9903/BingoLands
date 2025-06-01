@@ -38,9 +38,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "ohash": "^2.0.11",
     "zod": "^3.25.32"
-  },
-  "devDependencies": {
   },
   "engines": {
     "node": ">=v18.16.0"

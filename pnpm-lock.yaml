@@ -175,6 +175,15 @@ importers:
         specifier: ^4.18.0
         version: 4.18.0
 
+  packages/bingolands:
+    dependencies:
+      ohash:
+        specifier: ^2.0.11
+        version: 2.0.11
+      zod:
+        specifier: ^3.25.32
+        version: 3.25.42
+
 packages:
 
   '@ampproject/remapping@2.3.0':
