@@ -2,7 +2,7 @@
 import { toast } from 'vue-sonner';
 import { domToBlob } from 'modern-screenshot';
 
-import type { BingoGameTable } from '~/bingo';
+import type { BingoGameTable } from 'bingolands';
 
 import TableC from './Table.vue';
 

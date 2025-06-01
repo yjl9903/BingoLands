@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Block } from '~/bingo';
+import type { Block } from 'bingolands';
 
 import InlineC from './Inline.vue';
 

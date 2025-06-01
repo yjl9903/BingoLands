@@ -2,7 +2,7 @@
 import { parse } from 'yaml';
 import { toast } from 'vue-sonner';
 
-import { type BingoContent, BingoContentSchema } from '~/bingo';
+import { type BingoContent, BingoContentSchema } from 'bingolands';
 
 import TemplateBingo from '~/assets/anime-data.yml?raw';
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue';
 
-import type { BingoGameCell } from '~/bingo';
+import type { BingoGameCell } from 'bingolands';
 
 import BlockC from './Block.vue';
 

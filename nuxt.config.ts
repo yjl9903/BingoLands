@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
@@ -16,6 +18,10 @@ export default defineNuxtConfig({
       meta: [],
       script: []
     }
+  },
+
+  alias: {
+    binglands: fileURLToPath(new URL('./packages/bingolands/src/index.ts', import.meta.url))
   },
 
   nitro: {
@@ -38,14 +44,6 @@ export default defineNuxtConfig({
   },
 
   components: [
-    // {
-    //   path: '~/components/common',
-    //   pathPrefix: false
-    // },
-    // {
-    //   path: '~/components/docs',
-    //   pathPrefix: false
-    // },
     {
       path: '~/components',
       pathPrefix: false
@@ -72,14 +70,13 @@ export default defineNuxtConfig({
     routes: {
       '/api/bingo': {
         maxRequests: 3,
-        intervalSeconds: 60,
-      },
-    },
+        intervalSeconds: 60
+      }
+    }
   },
 
   monacoEditor: {
-    // These are default values:
-    locale: 'en',
+    locale: 'zh-hans',
     componentName: {
       codeEditor: 'MonacoEditor',
       diffEditor: 'MonacoDiffEditor'

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BingoGameTable } from '~/bingo';
+import type { BingoGameTable } from 'bingolands';
 
 import TableCell from './TableCell.vue';
 

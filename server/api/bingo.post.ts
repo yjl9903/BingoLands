@@ -1,5 +1,5 @@
 import { bingos } from '~/drizzle/schema';
-import { type BingoContent, BingoContentSchema, hashBingoContent } from '~/bingo';
+import { type BingoContent, BingoContentSchema, hashBingoContent } from 'bingolands';
 
 import { connectDatabase } from '../utils/database';
 

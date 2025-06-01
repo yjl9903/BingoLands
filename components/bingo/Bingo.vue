@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { BingoContent } from '~/bingo';
+import type { BingoContent } from 'bingolands';
 
 import GameC from './Game.vue';
 import BlockC from './Block.vue';

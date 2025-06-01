@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Inline } from '~/bingo';
+import type { Inline } from 'bingolands';
 
 const props = defineProps<{ node: Inline }>();
 
