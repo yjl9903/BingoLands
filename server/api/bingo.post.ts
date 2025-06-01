@@ -9,6 +9,8 @@ import {
 import { connectDatabase } from '../utils/database';
 
 export default defineEventHandler(async (event) => {
+  return { status: 'error', message: '维护中' };
+
   const body = await readBody<{ auth: string; content: BingoContent }>(event);
 
   const parsed = BingoContentSchema.safeParse(body.content);
