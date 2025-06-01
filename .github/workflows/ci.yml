@@ -27,4 +27,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build
+        run:
+          pnpm build:packages
+          pnpm test:ci
+          pnpm build

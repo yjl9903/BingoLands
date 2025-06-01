@@ -1,0 +1,48 @@
+{
+  "name": "bingolands",
+  "version": "0.0.0",
+  "description": "BingoLands core data structure",
+  "keywords": [
+    "bingo",
+    "editor"
+  ],
+  "homepage": "https://github.com/yjl9903/BingoLands#readme",
+  "bugs": {
+    "url": "https://github.com/yjl9903/BingoLands/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjl9903/BingoLands.git"
+  },
+  "license": "AGPL-3.0",
+  "author": "XLor",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "test": "vitest",
+    "test:ci": "vitest --run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.25.32"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=v18.16.0"
+  }
+}
