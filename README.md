@@ -5,6 +5,8 @@
 
 生成可分享可交互的 Bingo! 游戏！ → [BingoLands](https://bingo.animes.garden/)
 
+![bingo](./assets/bingo.png)
+
 ## 如何配置 Bingo?
 
 > 可视化编辑器 work in progress, 目前你可以把以下代码丢给 AI 来生成（x

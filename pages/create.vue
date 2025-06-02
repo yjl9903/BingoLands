@@ -91,6 +91,14 @@ const onPreivewExit = () => {
   <Layout>
     <h1 class="text-3xl font-bold my-4">创建一个新的在线 Bingo 游戏!</h1>
     <div class="my-4">暂时只支持通过代码创建游戏, 可视化编辑器正在开发中...</div>
+    <div class="my-4">
+      数据结构暂时请参考 (让 AI)
+      <a href="https://github.com/yjl9903/BingoLands" target="_blank" class="text-link"
+        >GitHub 仓库</a
+      >
+      中提到的相关代码.
+    </div>
+
     <ClientOnly v-if="tab === 'editor'">
       <div class="my-4 space-x-2">
         <Button @click="onSubmit">上传</Button>
