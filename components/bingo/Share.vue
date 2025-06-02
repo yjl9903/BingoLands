@@ -22,11 +22,11 @@ const domToImageBlob = async () => {
 
     const minWidth = 1024;
     const contentWidth = Math.max(rootRect.width, tableWidth, minWidth) + 3;
-    const contentHeight = rootRect.height + 3 + 8;
+    const contentHeight = rootRect.height + 4 + 8 + /* 生成链接位置的高度 */ 16 + 32;
 
     const blob = await domToBlob(rootDom, {
       width: contentWidth + 32 * 2,
-      height: contentHeight + 16 + 32 + 32 * 2,
+      height: contentHeight + 32 * 2,
       scale: 2,
       backgroundColor: 'white',
       style: {
@@ -45,7 +45,7 @@ const domToImageBlob = async () => {
         while (cur) {
           if (cur.style.width) {
             cur.style.width = contentWidth + 'px';
-            cur.style.height = Number.parseFloat(cur.style.height) + 3 + 'px';
+            cur.style.height = Math.ceil(Number.parseFloat(cur.style.height) + 4) + 'px';
           }
           cur = cur.parentElement as any;
         }
