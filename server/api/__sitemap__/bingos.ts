@@ -11,8 +11,8 @@ export default defineSitemapEventHandler(async () => {
 
   const hashes = await db.select({ hash: bingos.hash }).from(bingos).execute();
 
-  return hashes.map((hsh) => ({
-    loc: `/bingo/${hsh}`,
+  return hashes.map(({ hash }) => ({
+    loc: `/bingo/${hash}`,
     _sitemap: 'bingos'
   })) satisfies SitemapUrlInput[];
 });

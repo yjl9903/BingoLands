@@ -82,7 +82,15 @@ export default defineNuxtConfig({
   ],
 
   sitemap: {
-    sources: ['/api/__sitemap__/bingos']
+    sources: ['/api/__sitemap__/bingos'],
+    sitemaps: {
+      pages: {
+        includeAppSources: true
+      },
+      bingos: {
+        include: ['/bingos/**']
+      }
+    }
   },
 
   nuxtRateLimit: {
