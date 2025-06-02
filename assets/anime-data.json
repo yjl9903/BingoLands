@@ -184,7 +184,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "吊带袜天使 / 8"
+                  "content": "吊带袜天使 / 8.0"
                 }
               ]
             }
@@ -208,7 +208,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "爆漫王。 / 8"
+                  "content": "爆漫王。 / 8.0"
                 }
               ]
             }
@@ -522,7 +522,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "回转企鹅罐 / 8"
+                  "content": "回转企鹅罐 / 8.0"
                 }
               ]
             }
@@ -546,7 +546,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "歌牌情缘 / 8"
+                  "content": "歌牌情缘 / 8.0"
                 }
               ]
             }
@@ -910,7 +910,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "悠哉日常大王 / 8"
+                  "content": "悠哉日常大王 / 8.0"
                 }
               ]
             }
@@ -1006,7 +1006,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "美妙旋律 Rainbow Live / 8"
+                  "content": "美妙旋律 Rainbow Live / 8.0"
                 }
               ]
             }
@@ -1248,7 +1248,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "四月是你的谎言 / 8"
+                  "content": "四月是你的谎言 / 8.0"
                 }
               ]
             }
@@ -1272,7 +1272,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "寄生兽 生命的准则 / 8"
+                  "content": "寄生兽 生命的准则 / 8.0"
                 }
               ]
             }
@@ -1418,7 +1418,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "一拳超人 / 8"
+                  "content": "一拳超人 / 8.0"
                 }
               ]
             }
@@ -3062,7 +3062,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "86 -不存在的战区- 第2部分 / 8"
+                  "content": "86 -不存在的战区- 第2部分 / 8.0"
                 }
               ]
             }
@@ -3086,7 +3086,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "NOMAD MEGALO BOX 2 / 8"
+                  "content": "NOMAD MEGALO BOX 2 / 8.0"
                 }
               ]
             }
@@ -3110,7 +3110,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "境界触发者 第三季 / 8"
+                  "content": "境界触发者 第三季 / 8.0"
                 }
               ]
             }
@@ -3812,7 +3812,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "败犬女主太多了！ / 8"
+                  "content": "败犬女主太多了！ / 8.0"
                 }
               ]
             }
@@ -4068,6 +4068,21 @@
           "content": " 分, 你真是个动漫高手!"
         }
       ]
+    },
+    {
+      "type": "p",
+      "class": [],
+      "style": {},
+      "attrs": {},
+      "content": [
+        {
+          "type": "span",
+          "class": [],
+          "style": {},
+          "attrs": {},
+          "content": "数据来源于 bangumi, 筛选来自日本的 TV 动画, 同系列作品只保留 1 个."
+        }
+      ]
     }
   ],
   "styles": {
@@ -4075,6 +4090,9 @@
       "font-weight": "bold",
       "color": "white",
       "background": "#dc2626"
+    },
+    "checkbox:hover": {
+      "background": "oklch(0.967 0.001 286.375)"
     },
     "checkbox[checked]": {
       "background": "green",
