@@ -50,7 +50,10 @@ export class BingoRuntime {
     this.grid = out;
 
     this.variables = new Map(
-      Object.entries(content.variables ?? {}).map(([k, v]) => [k, new VariableState(k, v)])
+      Object.entries(content.variables ?? {}).map(([k, v]) => [
+        k,
+        new VariableState(k, content.variables ?? {})
+      ])
     );
   }
 
@@ -59,8 +62,12 @@ export class BingoRuntime {
     if (!state) return;
     state.select();
     for (const variable of this.variables.values()) {
-      variable.update(this.state);
+      variable.update(this);
     }
+  }
+
+  public getStates(): CellState[] {
+    return this.state;
   }
 
   public getState(row: number, col: number): CellState | undefined {

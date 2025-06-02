@@ -47,11 +47,11 @@ const generated = generateSimpleBingo(
   'Bangumi 高分动画宾果',
   [{ type: 'span', content: '近年来的 Bangumi 高分动画, 你都看了吗?' }],
   [
-    // { type: 'span', style: 'font-weight:bold;', content: '你看过 ' },
-    // { type: 'span', style: 'font-weight:bold;', reference: 'count', content: '' },
-    // { type: 'span', style: 'font-weight:bold;', content: ' 部动画, 平均评分是 ' },
-    // { type: 'span', style: 'font-weight:bold;', reference: 'avg', content: '' },
-    // { type: 'span', style: 'font-weight:bold;', content: '分' }
+    { type: 'span', style: 'font-weight:bold;', content: '你看过其中 ' },
+    { type: 'span', style: 'font-weight:bold;', reference: 'count', content: '' },
+    { type: 'span', style: 'font-weight:bold;', content: ' 部动画, 平均评分是 ' },
+    { type: 'span', style: 'font-weight:bold;', reference: 'avg', content: '' },
+    { type: 'span', style: 'font-weight:bold;', content: ' 分, 你真是个动漫高手!' }
   ],
   rows
 );

@@ -91,7 +91,13 @@ export type BingoTableCell = {
 
 export type VariableDefinition = {
   type: 'number';
+
   fixed?: number;
+
+  /**
+   * @default 0
+   */
+  default?: number;
 
   /**
    * Support:

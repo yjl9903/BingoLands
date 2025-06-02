@@ -834,13 +834,31 @@ game:
           value: 7.5
 footer:
   - type: p
-    content: []
+    content:
+      - type: span
+        style: font-weight:bold;
+        content: "你看过其中 "
+      - type: span
+        style: font-weight:bold;
+        reference: count
+        content: ""
+      - type: span
+        style: font-weight:bold;
+        content: " 部动画, 平均评分是 "
+      - type: span
+        style: font-weight:bold;
+        reference: avg
+        content: ""
+      - type: span
+        style: font-weight:bold;
+        content: " 分, 你真是个动漫高手!"
 variables:
   sum:
     type: number
     formula: sum(value:checked)
   avg:
     type: number
+    fixed: 2
     formula: avg(value:checked)
   count:
     type: number

@@ -36,6 +36,7 @@ export function generateSimpleBingo(
       },
       avg: {
         type: 'number',
+        fixed: 2,
         formula: 'avg(value:checked)'
       },
       count: {

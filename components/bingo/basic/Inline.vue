@@ -13,15 +13,42 @@ const className = computed(() => {
   return ['inline', ...(node.value.class?.map((c) => ctx.scoped + c) ?? [])];
 });
 
-const tag = typeof node.value === 'string' ? 'span' : node.value.attrs.href ? 'a' : node.value.type;
+const tag = node.value.attrs?.href ? 'a' : node.value.type;
 
-const href = typeof node.value === 'string' ? undefined : node.value.attrs.href;
+const referenceVariable = computed(() => {
+  if (node.value.reference) {
+    const variable = ctx.runtime.getVariable(node.value.reference);
+    return variable;
+  }
+  return undefined;
+});
 
-const style = typeof node.value === 'string' ? '' : node.value.style;
+const referenceResult = computed(() => {
+  if (referenceVariable.value) {
+    const value = referenceVariable.value.value;
+    return value.success ? '' + value.value : undefined;
+  }
+});
 
-const text = typeof node.value === 'string' ? node.value : node.value.content;
+const text = ref(referenceResult?.value ?? node.value.content);
+
+const dispose = node.value.reference
+  ? ctx.runtime.watchVariable(node.value.reference, (_, newValue) => {
+      text.value = newValue.success ? '' + newValue.value : node.value.content;
+    })
+  : undefined;
+
+watch(node, (node) => {
+  text.value = '' + node.content;
+});
+
+onUnmounted(() => {
+  dispose?.();
+});
 </script>
 
 <template>
-  <component :is="tag" :href="href" :class="className" :style="style">{{ text }}</component>
+  <component :is="tag" :href="node.attrs?.href" :class="className" :style="node.style">{{
+    text
+  }}</component>
 </template>

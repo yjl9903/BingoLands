@@ -1,11 +1,14 @@
 import type { VariableDefinition } from '../types';
 
-import type { CellState } from './cell';
+import type { BingoRuntime } from '.';
+import type { Formula } from './formula/types';
+
+import { type EvaluateResult, parseFormula, evaluateFormula, normalizeDataType } from './formula';
 
 export type VariableStateWatcher<T extends number | string = number | string> = (
   state: VariableState<T>,
-  newVal: T,
-  oldVal: T
+  newValue: EvaluateResult<T>,
+  oldValue: EvaluateResult<T>
 ) => void;
 
 export class VariableState<T extends number | string> {
@@ -15,18 +18,47 @@ export class VariableState<T extends number | string> {
 
   private _callbacks = new Set<VariableStateWatcher>();
 
-  private _value!: T;
+  private _value: EvaluateResult<T>;
 
-  public constructor(name: string, definition: VariableDefinition) {
+  private _formula: Formula;
+
+  public constructor(name: string, defs: Record<string, VariableDefinition>) {
+    this.definition = defs[name]!;
     this.name = name;
-    this.definition = definition;
+    this._value =
+      this.definition.type === 'number'
+        ? { success: true, value: normalizeDataType(this.definition, 0) as T }
+        : { success: true, value: normalizeDataType(this.definition, '') as T };
+    this._formula = parseFormula(this.definition.formula, defs);
   }
 
   public get value() {
     return this._value;
   }
 
-  public update(states: CellState[]) { }
+  public update(runtime: BingoRuntime) {
+    const newValue = evaluateFormula<T>(this.definition, this._formula, runtime);
+    const oldValue = this._value;
+
+    if (
+      (newValue.success && oldValue.success && newValue.value !== oldValue.value) ||
+      (newValue.success && !oldValue.success) ||
+      (!newValue.success && oldValue.success)
+    ) {
+      this._value = newValue;
+      this.emit(newValue, oldValue);
+    }
+  }
+
+  private emit(newValue: EvaluateResult<T>, oldValue: EvaluateResult<T>) {
+    for (const cb of this._callbacks) {
+      try {
+        cb(this, newValue, oldValue);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  }
 
   public watch<T extends number | string>(callback: VariableStateWatcher<T>) {
     this._callbacks.add(callback as any);

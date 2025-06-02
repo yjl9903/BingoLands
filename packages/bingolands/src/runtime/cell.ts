@@ -1,4 +1,4 @@
-import { BingoTableCell } from '../types';
+import type { BingoTableCell } from '../types';
 
 export type CellStateWatcher = (state: CellState) => void;
 
@@ -21,6 +21,10 @@ export class CellState {
 
   public get checked() {
     return this._checked;
+  }
+
+  public get data() {
+    return this.content.data ?? {};
   }
 
   public select() {

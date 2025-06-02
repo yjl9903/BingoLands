@@ -4019,7 +4019,55 @@
       "class": [],
       "style": {},
       "attrs": {},
-      "content": []
+      "content": [
+        {
+          "type": "span",
+          "class": [],
+          "style": {
+            "font-weight": "bold"
+          },
+          "attrs": {},
+          "content": "你看过其中 "
+        },
+        {
+          "type": "span",
+          "class": [],
+          "style": {
+            "font-weight": "bold"
+          },
+          "attrs": {},
+          "reference": "count",
+          "content": ""
+        },
+        {
+          "type": "span",
+          "class": [],
+          "style": {
+            "font-weight": "bold"
+          },
+          "attrs": {},
+          "content": " 部动画, 平均评分是 "
+        },
+        {
+          "type": "span",
+          "class": [],
+          "style": {
+            "font-weight": "bold"
+          },
+          "attrs": {},
+          "reference": "avg",
+          "content": ""
+        },
+        {
+          "type": "span",
+          "class": [],
+          "style": {
+            "font-weight": "bold"
+          },
+          "attrs": {},
+          "content": " 分, 你真是个动漫高手!"
+        }
+      ]
     }
   ],
   "styles": {
@@ -4040,6 +4088,7 @@
     },
     "avg": {
       "type": "number",
+      "fixed": 2,
       "formula": "avg(value:checked)"
     },
     "count": {
