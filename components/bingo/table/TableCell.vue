@@ -10,7 +10,7 @@ const { node, row, col } = toRefs(props);
 
 const ctx = injectBingoContext();
 
-const checked = ref(false);
+const checked = ref(ctx.runtime.getState(row.value, col.value)?.checked ?? false);
 
 const width = computed(() => {
   const width = Number.parseFloat(node.value.attrs?.width as any);
@@ -28,10 +28,18 @@ const cellStyle = computed(() => {
 
 const dispose = ctx.runtime.watchState(row.value, col.value, (state) => {
   checked.value = state.checked;
+
+  // Update local storage
+  const filtered = ctx.localStorage.value.filter((p) => p[0] === row.value && p[1] === col.value);
+  if (state.checked) {
+    filtered.push([row.value, col.value]);
+  }
+  ctx.localStorage.value = filtered;
 });
 
 const onClick = () => {
   ctx.runtime.select(row.value, col.value);
+  ctx.runtime.updateVariables();
 };
 
 onUnmounted(() => {

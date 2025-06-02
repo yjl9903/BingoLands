@@ -61,6 +61,9 @@ export class BingoRuntime {
     const state = this.grid[row]?.[col];
     if (!state) return;
     state.select();
+  }
+
+  public updateVariables() {
     for (const variable of this.variables.values()) {
       variable.update(this);
     }

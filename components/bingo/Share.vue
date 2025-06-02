@@ -55,6 +55,14 @@ const domToImageBlob = async () => {
           }
           cur = cur.parentElement as any;
         }
+
+        const blocks = [
+          ...(cloned as HTMLDivElement).querySelectorAll('.bingo-header .block'),
+          ...(cloned as HTMLDivElement).querySelectorAll('.bingo-footer .block')
+        ];
+        for (const block of blocks) {
+          (block as HTMLDivElement).style.width = contentWidth + 'px';
+        }
       }
     });
 
@@ -109,15 +117,15 @@ const copyURL = async () => {
 
 <template>
   <div class="flex justify-center gap-4">
-    <Button @click="downloadImage">
+    <Button @click="downloadImage" size="sm">
       <span class="i-carbon-download"></span>
       <span>下载图片</span>
     </Button>
-    <Button @click="copyImage">
+    <Button @click="copyImage" size="sm">
       <span class="i-carbon-copy"></span>
       <span>复制图片</span>
     </Button>
-    <Button @click="copyURL" variant="secondary">
+    <Button @click="copyURL" variant="secondary" size="sm">
       <span class="i-carbon-share"></span>
       <span>分享链接</span>
     </Button>

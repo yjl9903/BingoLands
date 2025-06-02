@@ -16,19 +16,19 @@ async function getTopSubjects(year: number, kth: number) {
     if (result.length === kth) break;
 
     // 跳过美国动画
-    if (bgm.tags.some(tag => tag.name === '美国')) continue;
+    if (bgm.tags.some((tag) => tag.name === '美国')) continue;
 
     // 只包含 TV
-    if (bgm.tags.some(tag => ['剧场版', '总集篇'].includes(tag.name))) continue;
+    if (bgm.tags.some((tag) => ['剧场版', '总集篇'].includes(tag.name))) continue;
 
     // 同系列作品只保留一个
     const related = await getPreSubjects(bgm);
-    if (related.some(r => visited.has(r.id))) {
-      related.forEach(r => visited.add(r.id));
+    if (related.some((r) => visited.has(r.id))) {
+      related.forEach((r) => visited.add(r.id));
       continue;
     }
 
-    related.forEach(r => visited.add(r.id));
+    related.forEach((r) => visited.add(r.id));
 
     visited.add(bgm.id);
     result.push(bgm);
@@ -41,7 +41,7 @@ async function getTopSubjects(year: number, kth: number) {
     const tasks: number[] = [bgm.id];
     for (let i = 0; i < tasks.length; i++) {
       const related = await bgmc.subjectRelated(tasks[i]);
-      const pres = related.filter(r => PreRelations.includes(r.relation));
+      const pres = related.filter((r) => PreRelations.includes(r.relation));
       for (const bgm of pres) {
         if (!all.has(bgm.id)) {
           all.set(bgm.id, bgm);
@@ -73,7 +73,7 @@ for (const year of years) {
   for (const sub of subs) {
     const name = sub.name_cn || sub.name || '';
     const score = sub.rating.score;
-    items.push({ text: name + ' / ' + score, value: score });
+    items.push({ text: name + ' / ' + score.toFixed(1), value: score });
   }
 }
 
@@ -81,11 +81,16 @@ const generated = generateSimpleBingo(
   'Bangumi 高分 TV 动画宾果',
   [{ type: 'span', content: '近年来的 Bangumi 高分 TV 动画, 你都看了吗?' }],
   [
-    { type: 'span', style: 'font-weight:bold;', content: '你看过其中 ' },
-    { type: 'span', style: 'font-weight:bold;', reference: 'count', content: '' },
-    { type: 'span', style: 'font-weight:bold;', content: ' 部动画, 平均评分是 ' },
-    { type: 'span', style: 'font-weight:bold;', reference: 'avg', content: '' },
-    { type: 'span', style: 'font-weight:bold;', content: ' 分, 你真是个动漫高手!' }
+    [
+      { type: 'span', style: 'font-weight:bold;', content: '你看过其中 ' },
+      { type: 'span', style: 'font-weight:bold;', reference: 'count', content: '' },
+      { type: 'span', style: 'font-weight:bold;', content: ' 部动画, 平均评分是 ' },
+      { type: 'span', style: 'font-weight:bold;', reference: 'avg', content: '' },
+      { type: 'span', style: 'font-weight:bold;', content: ' 分, 你真是个动漫高手!' }
+    ],
+    [
+      { type: 'span', content: '数据来源于 bangumi, 筛选来自日本的 TV 动画, 同系列作品只保留 1 个.' }
+    ]
   ],
   rows
 );

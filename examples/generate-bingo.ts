@@ -13,7 +13,7 @@ export interface SimpleTableRow {
 export function generateSimpleBingo(
   name: string,
   heading: InlineInit[],
-  footer: InlineInit[],
+  footer: InlineInit[][],
   table: SimpleTableRow[]
 ) {
   const bingo: BingoContentInit = {
@@ -28,7 +28,7 @@ export function generateSimpleBingo(
       type: 'bingo',
       cells: []
     },
-    footer: [{ type: 'p', content: footer }],
+    footer: footer.map((footer) => ({ type: 'p' as const, content: footer })),
     variables: {
       sum: {
         type: 'number',
