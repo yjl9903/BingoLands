@@ -26,7 +26,7 @@
     "@nuxt/fonts": "0.11.4",
     "@nuxt/icon": "1.13.0",
     "@nuxt/image": "1.10.0",
-    "@nuxt/scripts": "0.11.7",
+    "@nuxt/scripts": "0.11.8",
     "@pinia/nuxt": "0.11.0",
     "@tailwindcss/vite": "^4.1.8",
     "@unhead/vue": "^2.0.10",
