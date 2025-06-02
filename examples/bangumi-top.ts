@@ -89,7 +89,10 @@ const generated = generateSimpleBingo(
       { type: 'span', style: 'font-weight:bold;', content: ' 分, 你真是个动漫高手!' }
     ],
     [
-      { type: 'span', content: '数据来源于 bangumi, 筛选来自日本的 TV 动画, 同系列作品只保留 1 个.' }
+      {
+        type: 'span',
+        content: '数据来源于 bangumi, 筛选来自日本的 TV 动画, 同系列作品只保留 1 个.'
+      }
     ]
   ],
   rows

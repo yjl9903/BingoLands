@@ -30,7 +30,7 @@ const dispose = ctx.runtime.watchState(row.value, col.value, (state) => {
   checked.value = state.checked;
 
   // Update local storage
-  const filtered = ctx.localStorage.value.filter((p) => p[0] === row.value && p[1] === col.value);
+  const filtered = ctx.localStorage.value.filter((p) => p[0] !== row.value || p[1] !== col.value);
   if (state.checked) {
     filtered.push([row.value, col.value]);
   }
