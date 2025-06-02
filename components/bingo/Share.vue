@@ -26,7 +26,7 @@ const domToImageBlob = async () => {
 
     const blob = await domToBlob(rootDom, {
       width: contentWidth + 32 * 2,
-      height: contentHeight + 32 * 2,
+      height: contentHeight + 16 + 32 + 32 * 2,
       scale: 2,
       backgroundColor: 'white',
       style: {
@@ -37,12 +37,6 @@ const domToImageBlob = async () => {
       },
       features: {
         copyScrollbar: false
-      },
-      filter(el) {
-        if (el instanceof HTMLElement && el.classList.contains('remove')) {
-          return false;
-        }
-        return true;
       },
       onCloneNode(cloned) {
         const table = (cloned as HTMLDivElement).querySelector('table');
@@ -62,6 +56,28 @@ const domToImageBlob = async () => {
         ];
         for (const block of blocks) {
           (block as HTMLDivElement).style.width = contentWidth + 'px';
+        }
+
+        {
+          const div = cloned.ownerDocument?.createElement('div');
+          if (div) {
+            div.style.fontWeight = '';
+            div.style.marginTop = '16px';
+            div.style.width = contentWidth + 'px';
+            div.style.height = '32px';
+            div.style.fontWeight = '100';
+            div.style.color = '#a1a1aa';
+            div.style.fontSize = '0.75rem';
+            div.style.lineHeight = '1rem';
+
+            const max = 30;
+            const name =
+              ctx.runtime.content.name.length > max
+                ? ctx.runtime.content.name.slice(0, max) + '...'
+                : ctx.runtime.content.name;
+            div.innerText = `生成于 BingoLands 宾果群岛 / ${name} → ${url.toString()}`;
+            cloned.appendChild(div);
+          }
         }
       }
     });

@@ -4,13 +4,13 @@ import { type CellStateWatcher, CellState } from './cell';
 import { type VariableStateWatcher, VariableState } from './variable';
 
 export class BingoRuntime {
-  private readonly content: BingoContent;
-
   private readonly state: CellState[];
-
+  
   private readonly grid: CellState[][];
-
+  
   private readonly variables: Map<string, VariableState<any>>;
+
+  public readonly content: BingoContent;
 
   public constructor(content: BingoContent) {
     this.content = content;
