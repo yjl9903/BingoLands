@@ -7,6 +7,11 @@ export default defineNuxtConfig({
 
   css: ['@unocss/reset/tailwind.css'],
 
+  site: {
+    url: 'https://bingo.animes.garden',
+    name: 'BingoLands 宾果群岛'
+  },
+
   app: {
     head: {
       title: 'BingoLands 宾果群岛',
@@ -72,8 +77,13 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     'nuxt-monaco-editor',
     '@pinia/nuxt',
-    'nuxt-rate-limit'
+    'nuxt-rate-limit',
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    sources: ['/api/__sitemap__/bingos']
+  },
 
   nuxtRateLimit: {
     routes: {
