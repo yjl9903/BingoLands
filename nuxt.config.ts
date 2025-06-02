@@ -19,7 +19,10 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'zh-CN'
       },
-      link: [{ rel: 'icon', href: '/favicon.svg' }],
+      link: [
+        { rel: 'icon', href: '/favicon.svg' },
+        { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' }
+      ],
       meta: [],
       script: []
     }
