@@ -49,6 +49,9 @@ export function generateSimpleBingo(
       'checkbox:hover': 'background:oklch(0.967 0.001 286.375);',
       'checkbox[checked]': 'background:green;color:white;'
     }
+    // meta: {
+    //   description: heading.map(h => h.content).join('')
+    // }
   };
 
   for (const data of table) {
