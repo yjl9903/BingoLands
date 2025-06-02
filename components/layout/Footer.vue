@@ -31,6 +31,9 @@
           >
             建议反馈
           </a>
+          <a href="https://deepwiki.com/yjl9903/BingoLands" target="_blank" class="ml-4 lt-sm:ml-2">
+            DeepWiki 文档
+          </a>
           <a href="https://animespace.onekuma.cn" target="_blank" class="ml-4 lt-sm:ml-2"
             >AnimeSpace 计划</a
           >
