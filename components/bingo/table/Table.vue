@@ -31,8 +31,6 @@ const withBorder = computed(() => true);
 
 <style>
 .bingo-table {
-  /* @apply: w-full overflow-x-auto; */
-  @apply: my-8;
   @apply: text-sm;
 }
 
@@ -42,9 +40,5 @@ const withBorder = computed(() => true);
 
 .bingo-table.with-border td {
   @apply: border border-black;
-}
-
-.bingo-table.with-border tr:first-child td:first-child {
-  border-top-left-radius: 0.25rem;
 }
 </style>

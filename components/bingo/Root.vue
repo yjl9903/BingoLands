@@ -53,3 +53,11 @@ watch(bingoRef, (ref) => {
     <ShareC></ShareC>
   </div>
 </template>
+
+<style>
+.bingo-root,
+.bingo-header,
+.bingo-footer {
+  @apply: space-y-8;
+}
+</style>

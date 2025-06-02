@@ -14,18 +14,33 @@ const domToImageBlob = async () => {
     const rect = dom.getBoundingClientRect();
 
     const blob = await domToBlob(dom, {
-      width: rect.width + 32,
-      height: rect.height + 32,
+      width: rect.width + 32 + 3,
+      height: rect.height + 32 + 3 + 8,
       scale: 2,
       backgroundColor: 'white',
       style: {
         padding: '16px'
+      },
+      features: {
+        copyScrollbar: false
       },
       filter(el) {
         if (el instanceof HTMLElement && el.classList.contains('remove')) {
           return false;
         }
         return true;
+      },
+      onCloneNode(cloned) {
+        const table = (cloned as HTMLDivElement).querySelector('table');
+
+        let cur = table;
+        while (cur) {
+          if (cur.style.width) {
+            cur.style.width = Number.parseFloat(cur.style.width) + 3 + 'px';
+            cur.style.height = Number.parseFloat(cur.style.height) + 3 + 'px';
+          }
+          cur = cur.parentElement as any;
+        }
       }
     });
 

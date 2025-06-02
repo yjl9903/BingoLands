@@ -6,8 +6,8 @@ const props = withDefaults(defineProps<{}>(), {});
 </script>
 
 <template>
-  <nav class="w-screen border-b border-b-gray-200 bg-white absolute top-0">
-    <div class="w-screen h-[64px]">
+  <nav class="w-full border-b border-b-gray-200 bg-white absolute top-0">
+    <div class="w-full h-[64px]">
       <div class="main h-full flex items-center gap-4 lt-md:gap-2">
         <nuxt-link to="/" class="select-none flex items-center outline-none">
           <img src="/favicon.svg" class="h-8 w-8 mr-2 rotate--30" />
@@ -31,7 +31,7 @@ const props = withDefaults(defineProps<{}>(), {});
       </div>
     </div>
   </nav>
-  <main class="w-screen mt-[64px] min-h-[calc(100vh-64px-224px)] pt-8 pb-16">
+  <main class="w-full mt-[64px] min-h-[calc(100vh-64px-224px)] pt-8 pb-16">
     <div class="main">
       <slot></slot>
     </div>

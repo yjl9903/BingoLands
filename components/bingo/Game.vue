@@ -14,6 +14,6 @@ const props = defineProps<{ game: BingoTable }>();
 
 <style>
 .bingo-game {
-  @apply: w-full overflow-x-auto;
+  @apply: w-full overflow-y-hidden overflow-x-auto;
 }
 </style>

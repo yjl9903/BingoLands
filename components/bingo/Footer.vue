@@ -7,7 +7,7 @@ defineProps<{ blocks: Block[] }>();
 </script>
 
 <template>
-  <div class="bingo-header">
+  <div class="bingo-footer">
     <BlockC v-for="(child, index) in blocks" :key="index" :node="child"></BlockC>
   </div>
 </template>
