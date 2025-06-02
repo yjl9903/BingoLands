@@ -2,6 +2,7 @@
 
 [![Group](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white)](https://t.me/bingolands)
 [![CI](https://github.com/yjl9903/BingoLands/actions/workflows/ci.yml/badge.svg)](https://github.com/yjl9903/BingoLands/actions/workflows/ci.yml)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/yjl9903/BingoLands)
 
 生成可分享可交互的 Bingo! 游戏！ → [BingoLands](https://bingo.animes.garden/)
 
@@ -9,7 +10,7 @@
 
 ## 如何配置 Bingo?
 
-> 可视化编辑器 work in progress, 目前你可以把以下代码丢给 AI 来生成（x
+> 可视化编辑器 work in progress, 目前你可以把以下代码丢给 AI 来生成 → [Ask DeepWiki](https://deepwiki.com/yjl9903/BingoLands)
 
 - **类型定义**: [input/types.ts](./packages/bingolands/src/input/types.ts), [types.ts](./packages/bingolands/src/types.ts)
 - **数据结构示例**: [assets/anime-data.json](./assets/anime-data.json), [assets/anime-data.yaml](./assets/anime-data.yaml)
