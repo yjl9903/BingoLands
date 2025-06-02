@@ -222,30 +222,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "小马宝莉：友谊就是魔法 第一季 / 8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 7.9
           },
           "content": [
@@ -270,7 +246,7 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.2
+            "value": 7.9
           },
           "content": [
             {
@@ -280,7 +256,31 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "飞出个未来 第6季 / 8.2"
+                  "content": "交响情人梦Finale / 7.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "女仆咖啡厅 / 7.8"
                 }
               ]
             }
@@ -512,7 +512,7 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.1
+            "value": 8
           },
           "content": [
             {
@@ -522,7 +522,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "爆漫王。2 / 8.1"
+                  "content": "回转企鹅罐 / 8"
                 }
               ]
             }
@@ -546,7 +546,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "回转企鹅罐 / 8"
+                  "content": "歌牌情缘 / 8"
                 }
               ]
             }
@@ -573,54 +573,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "2012"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "银魂' 延长战 / 8.3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "爆漫王。3 / 8.3"
                 }
               ]
             }
@@ -682,30 +634,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "日常 ETV版 / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8.1
           },
           "content": [
@@ -717,30 +645,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "宇宙兄弟 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "夏目友人帐 肆 / 8"
                 }
               ]
             }
@@ -812,7 +716,103 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "怪诞小镇 第一季 / 7.9"
+                  "content": "少年同盟 2 / 7.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.9
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "人类衰退之后 / 7.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "伪物语 / 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "JOJO的奇妙冒险 / 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "向阳素描×蜂窝 / 7.8"
                 }
               ]
             }
@@ -852,54 +852,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.4
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "瑞克和莫蒂 第一季 / 8.4"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "物语系列 第二季 / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8.2
           },
           "content": [
@@ -911,30 +863,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "进击的巨人 / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "歌牌情缘 第二季 / 8.2"
                 }
               ]
             }
@@ -1083,6 +1011,78 @@
               ]
             }
           ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "Little Busters! 〜Refrain〜 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "南家三姐妹 我回来了 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "钻石王牌 / 7.6"
+                }
+              ]
+            }
+          ]
         }
       ],
       [
@@ -1190,78 +1190,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.5
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "虫师 续章 / 8.5"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "虫师 特別篇 蚀日之翳 / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "怪诞小镇 第二季 / 8.3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8.2
           },
           "content": [
@@ -1320,7 +1248,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "JOJO的奇妙冒险 星尘斗士 / 8"
+                  "content": "四月是你的谎言 / 8"
                 }
               ]
             }
@@ -1344,7 +1272,79 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "四月是你的谎言 / 8"
+                  "content": "寄生兽 生命的准则 / 8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "月刊少女野崎君 / 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "希德尼娅的骑士 / 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "游戏人生 / 7.7"
                 }
               ]
             }
@@ -1384,30 +1384,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.4
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "瑞克和莫蒂 第二季 / 8.4"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8.3
           },
           "content": [
@@ -1432,78 +1408,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "排球少年 第二季 / 8.3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "JOJO的奇妙冒险 星尘斗士 埃及篇 / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "银魂° / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8
           },
           "content": [
@@ -1515,30 +1419,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "一拳超人 / 8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "悠哉日常大王 Repeat / 8"
                 }
               ]
             }
@@ -1600,7 +1480,7 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.8
+            "value": 7.6
           },
           "content": [
             {
@@ -1610,7 +1490,127 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "苍穹之法芙娜 EXODUS 第2部分 / 7.8"
+                  "content": "摇曳百合 3☆High! / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "迷糊餐厅 第三季 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "请问您今天要来点兔子吗？？ / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "Concrete Revolutio 超人幻想 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "血界战线 / 7.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "我的青春恋爱物语果然有问题 续 / 7.4"
                 }
               ]
             }
@@ -1637,54 +1637,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "2016"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.5
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "吹响！悠风号 第二季 / 8.5"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.5
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "排球少年 乌野高校 VS 白鸟泽学园高校 / 8.5"
                 }
               ]
             }
@@ -1746,30 +1698,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.9
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "马男波杰克3 / 7.9"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 7.8
           },
           "content": [
@@ -1781,54 +1709,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "灵能百分百 / 7.8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 7.8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "JOJO的奇妙冒险 不灭钻石 / 7.8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "探险活宝 第八季 / 8.1"
                 }
               ]
             }
@@ -1881,6 +1761,126 @@
               ]
             }
           ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "暗杀教室 第二季 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "只有我不存在的城市 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "为美好的世界献上祝福！ / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "忍者杀手 特别编辑版 / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "编舟记 / 7.6"
+                }
+              ]
+            }
+          ]
         }
       ],
       [
@@ -1903,78 +1903,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "2017"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "3月的狮子 第二季 / 8.8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.5
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "瑞克和莫蒂 第三季 / 8.5"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "昭和元禄落语心中 -助六再临篇- / 8.3"
                 }
               ]
             }
@@ -2022,79 +1950,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "终物语（下） / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
                   "content": "少女终末旅行 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "进击的巨人 第二季 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "探险活宝 第九季 / 8.3"
                 }
               ]
             }
@@ -2143,6 +1999,150 @@
                   "type": "span",
                   "attrs": {},
                   "content": "月色真美 / 7.9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "兽娘动物园 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "小魔女学园 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "宝石之国 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "末日时在做什么？有没有空？可以来拯救吗？ / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "此花绮谭 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "NEW GAME!! / 7.4"
                 }
               ]
             }
@@ -2216,30 +2216,6 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "进击的巨人 第三季 / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
                   "content": "摇曳露营△ / 8.2"
                 }
               ]
@@ -2265,54 +2241,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "比宇宙更远的地方 / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "命运石之门 0 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "JOJO的奇妙冒险 黄金之风 / 8"
                 }
               ]
             }
@@ -2413,6 +2341,78 @@
               ]
             }
           ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "佐贺偶像是传奇 / 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.8
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "终将成为你 / 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.7
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "向山进发 第三季 / 7.7"
+                }
+              ]
+            }
+          ]
         }
       ],
       [
@@ -2448,30 +2448,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.7
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "进击的巨人 第三季 Part.2 / 8.7"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8.3
           },
           "content": [
@@ -2483,78 +2459,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "冰海战记 / 8.3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "高分少女 第二季 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "灵能百分百 第二季 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "瑞克和莫蒂 第四季 / 8"
                 }
               ]
             }
@@ -2664,7 +2568,7 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.7
+            "value": 7.5
           },
           "content": [
             {
@@ -2674,7 +2578,103 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "马男波杰克6 上 / 7.7"
+                  "content": "街角魔族 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "烟草 / 7.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "MIX：明青故事 / 7.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "彼方的阿斯特拉 / 7.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "动物狂想曲 / 7.4"
                 }
               ]
             }
@@ -2762,54 +2762,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.9
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "辉夜大小姐想让我告白？～天才们的恋爱头脑战～ / 7.9"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "马男波杰克6 下 / 8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 7.7
           },
           "content": [
@@ -2821,78 +2773,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "异种族风俗娘评鉴指南 / 7.7"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 7.7
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "排球少年 TO THE TOP 第二期 / 7.7"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 7.7
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "进击的巨人 最终季 / 7.7"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 7.7
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "Re：从零开始的异世界生活 新编集版 / 7.7"
                 }
               ]
             }
@@ -2940,7 +2820,127 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "请问您今天要来点兔子吗？BLOOM / 7.6"
+                  "content": "异兽魔都 / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "某科学的超电磁炮T / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "王者天下 第三季 / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "Love Live! 虹咲学园校园偶像同好会 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "异度侵入 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "甜梦猫 / 7.5"
                 }
               ]
             }
@@ -3052,54 +3052,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "摇曳露营△ 第二季 / 8.3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.2
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "悠哉日常大王 Nonstop / 8.2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8
           },
           "content": [
@@ -3148,30 +3100,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.9
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "无职转生～到了异世界就拿出真本事～ / 7.9"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 8
           },
           "content": [
@@ -3207,6 +3135,78 @@
                   "type": "span",
                   "attrs": {},
                   "content": "漂流少年 / 7.8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "Re：从零开始的异世界生活 第二季 后半部分 / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "巴克·亚罗 / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "小林家的龙女仆S / 7.6"
                 }
               ]
             }
@@ -3270,126 +3270,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "辉夜大小姐想让我告白-超级浪漫- / 8.3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "来自深渊 烈日的黄金乡 / 8.3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "灵能百分百 第三季 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "向山进发 Next Summit / 8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "擅长捉弄的高木同学 第三季 / 8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 7.9
           },
           "content": [
@@ -3438,7 +3318,7 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.8
+            "value": 7.6
           },
           "content": [
             {
@@ -3448,7 +3328,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "街角魔族 2丁目 / 7.8"
+                  "content": "异世界舅舅 / 7.6"
                 }
               ]
             }
@@ -3462,7 +3342,7 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.7
+            "value": 7.6
           },
           "content": [
             {
@@ -3472,7 +3352,127 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "黄金神威 第四季 / 7.7"
+                  "content": "平家物语 / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "明日同学的水手服 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "夏日重现 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "青之芦苇 / 7.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "彻夜之歌 / 7.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.3
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "间谍过家家 第2部分 / 7.3"
                 }
               ]
             }
@@ -3546,55 +3546,7 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "冰海战记 第二季 / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.1
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
                   "content": "BanG Dream! It's MyGO!!!!! / 8.1"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 7.9
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "辉夜大小姐想让我告白-初吻不会结束- / 7.9"
                 }
               ]
             }
@@ -3619,30 +3571,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "我心里危险的东西 / 7.8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "机动战士高达 闪光的哈撒韦 TV剪辑版 / 8"
                 }
               ]
             }
@@ -3690,30 +3618,6 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "偶像大师 灰姑娘女孩 U149 / 7.7"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 7.7
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
                   "content": "跃动青春 / 7.7"
                 }
               ]
@@ -3738,7 +3642,103 @@
                 {
                   "type": "span",
                   "attrs": {},
-                  "content": "进击的巨人 最终季 完结篇 前篇 / 7.7"
+                  "content": "偶像大师 灰姑娘女孩 U149 / 7.7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.6
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "别当欧尼酱了！ / 7.6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "宝可梦 地平线 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "药屋少女的呢喃 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "【我推的孩子】 / 7.4"
                 }
               ]
             }
@@ -3789,30 +3789,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "航海王：粉丝来信 / 8.5"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 8.3
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "我心里危险的东西 第二季 / 8.3"
                 }
               ]
             }
@@ -3898,30 +3874,6 @@
           "attrs": {},
           "style": {},
           "data": {
-            "value": 7.8
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "夏目友人帐 柒 / 7.8"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
             "value": 7.6
           },
           "content": [
@@ -3933,30 +3885,6 @@
                   "type": "span",
                   "attrs": {},
                   "content": "GIRLS BAND CRY / 7.6"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "checkbox",
-          "class": [
-            "checkbox"
-          ],
-          "attrs": {},
-          "style": {},
-          "data": {
-            "value": 7.6
-          },
-          "content": [
-            {
-              "type": "p",
-              "attrs": {},
-              "content": [
-                {
-                  "type": "span",
-                  "attrs": {},
-                  "content": "为美好的世界献上祝福！第三季 / 7.6"
                 }
               ]
             }
@@ -4005,6 +3933,78 @@
                   "type": "span",
                   "attrs": {},
                   "content": "乱马1/2 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.5
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "胆大党 / 7.5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.4
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "深夜重拳 / 7.4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "class": [
+            "checkbox"
+          ],
+          "attrs": {},
+          "style": {},
+          "data": {
+            "value": 7.3
+          },
+          "content": [
+            {
+              "type": "p",
+              "attrs": {},
+              "content": [
+                {
+                  "type": "span",
+                  "attrs": {},
+                  "content": "义妹生活 / 7.3"
                 }
               ]
             }

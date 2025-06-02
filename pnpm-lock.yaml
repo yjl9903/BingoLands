@@ -45,8 +45,8 @@ importers:
         specifier: ^11.10.0
         version: 11.10.0
       bgmc:
-        specifier: ^0.0.11
-        version: 0.0.11
+        specifier: ^0.0.12
+        version: 0.0.12
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -129,6 +129,9 @@ importers:
       '@unocss/reset':
         specifier: ^66.1.3
         version: 66.1.3
+      bgmd:
+        specifier: ^0.0.61
+        version: 0.0.61
       bumpp:
         specifier: latest
         version: 10.1.1(magicast@0.3.5)
@@ -2490,6 +2493,9 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
+  bangumi-data@0.3.173:
+    resolution: {integrity: sha512-FyMlgJ26Aa+Hcf1liLkVVnJ2XICkFWUIVVy3oewgYw4arUeKZaMghbaYwms8MwcCpBB4GyC9NY/fxZEv01n3Cw==}
+
   bare-events@2.5.4:
     resolution: {integrity: sha512-+gFfDkR8pj4/TrWCGUGWmJIkBwuxPS5F+a5yWjOHQt2hHvNZd5YLzadjmDUtFmMM4y429bnKLa8bYBMHcYdnQA==}
 
@@ -2526,10 +2532,23 @@ packages:
   better-sqlite3@11.10.0:
     resolution: {integrity: sha512-EwhOpyXiOEL/lKzHz9AW1msWFNzGc/z+LzeB3/jnFJpxu+th2yqvzsSWas1v9jgs9+xiXJcD5A8CJxAG2TaghQ==}
 
-  bgmc@0.0.11:
-    resolution: {integrity: sha512-Aj+SKZUC3kq/jdex6NBlfw7lgAECA7+UXY43DE1AW6d/l6EwXblAMa+szJuko0M2ii0YiXpi1WO5bMJNyc2Vsw==}
+  bgmc@0.0.10:
+    resolution: {integrity: sha512-V5pkx/jHgNMfYs+P4xFIGm+dsRjyWuXq/lMzzCPv8vY0nATkD/11RFM3phy6zw0hNb0OmOL4l9xpN+eFDlkPXA==}
     engines: {node: '>=v20.8.0'}
     hasBin: true
+
+  bgmc@0.0.12:
+    resolution: {integrity: sha512-jfQHXcaznbnbeGpWQQXOo17DMD+iMgM7cFgjq6VCXzwbL2ri9LydT2TDQKl7MHdCSxTILQFaWqbk1BvTi+Qeyw==}
+    engines: {node: '>=v20.8.0'}
+    hasBin: true
+
+  bgmd@0.0.61:
+    resolution: {integrity: sha512-jOPQm/BrNl7fdrEwG4BialWw2oS4TbYliuTR/KjU291O5O36GpO8DxM9bK2ugzemcaw0UpLPHROmZmPFlicFFg==}
+    engines: {node: '>=v20.8.0'}
+
+  bgmt@0.1.0:
+    resolution: {integrity: sha512-lHKCIODzIgLV6pwlWrAXr1XYzuddn2gpT6Ju5SXWCiWEKd8Y/Ef/+XqXUJB/lhO+zvAZxMaIOwzAE/jXNIy0BA==}
+    engines: {node: '>=v20.8.0'}
 
   binary-extensions@2.3.0:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
@@ -5684,6 +5703,9 @@ packages:
   simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
 
+  simptrad@0.2.0:
+    resolution: {integrity: sha512-SADENHX3KNuTLThG/LQCZvIywDOwCFTC2aLufwmSgjVbHUEZKIjRzleb28J856kL4ozkKptv08eR3GyJFRCnMg==}
+
   sirv@3.0.1:
     resolution: {integrity: sha512-FoqMu0NCGBLCcAkS1qA+XJIQTR6/JHfQXl+uGteNCQ76T91DMUjPa9xfmeqMY3z80nLSg9yQmNjK0Px6RWsH/A==}
     engines: {node: '>=18'}
@@ -5986,6 +6008,11 @@ packages:
   tinyspy@3.0.2:
     resolution: {integrity: sha512-n1cw8k1k0x4pgA2+9XrOkFydTerNcJ1zWCO5Nn9scWHTD+5tp8dghT2x1uduQePZTZgd3Tupf+x9BxJjeJi77Q==}
     engines: {node: '>=14.0.0'}
+
+  tmdbc@0.0.2:
+    resolution: {integrity: sha512-dKVpUVyRtVuFZFmmEQvF9XQjiqCar2MFct3al2UZLZH8ylT/lQNHhx1cdB3sl7n1589OttkAXVg6Sfk6vC+ZvA==}
+    engines: {node: '>=v20.8.0'}
+    hasBin: true
 
   tmp-promise@3.0.3:
     resolution: {integrity: sha512-RwM7MoPojPxsOBYnyd2hy0bxtIlVrihNs9pj5SUvY8Zz1sQcQG2tG1hSr8PDxfgEB8RNKDhqbIlroIarSNDNsQ==}
@@ -9483,6 +9510,8 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
+  bangumi-data@0.3.173: {}
+
   bare-events@2.5.4:
     optional: true
 
@@ -9515,9 +9544,26 @@ snapshots:
       bindings: 1.5.0
       prebuild-install: 7.1.3
 
-  bgmc@0.0.11:
+  bgmc@0.0.10:
     dependencies:
       breadc: 0.9.7
+
+  bgmc@0.0.12:
+    dependencies:
+      breadc: 0.9.7
+
+  bgmd@0.0.61:
+    dependencies:
+      bangumi-data: 0.3.173
+      bgmc: 0.0.10
+      bgmt: 0.1.0
+      tmdbc: 0.0.2
+      type-fest: 4.41.0
+
+  bgmt@0.1.0:
+    dependencies:
+      bgmc: 0.0.10
+      simptrad: 0.2.0
 
   binary-extensions@2.3.0: {}
 
@@ -13349,6 +13395,8 @@ snapshots:
     dependencies:
       is-arrayish: 0.3.2
 
+  simptrad@0.2.0: {}
+
   sirv@3.0.1:
     dependencies:
       '@polka/url': 1.0.0-next.29
@@ -13678,6 +13726,10 @@ snapshots:
   tinyrainbow@2.0.0: {}
 
   tinyspy@3.0.2: {}
+
+  tmdbc@0.0.2:
+    dependencies:
+      breadc: 0.9.7
 
   tmp-promise@3.0.3:
     dependencies:

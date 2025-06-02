@@ -1,28 +1,62 @@
 import fs from 'node:fs';
 import { stringify } from 'yaml';
 
+import { BgmClient } from 'bgmc';
+
 import { type SimpleTableRow, generateSimpleBingo } from './generate-bingo';
 
-async function getTopSubjects(year: number, kth: number) {
-  const params = new URLSearchParams();
-  params.set('type', '2');
-  params.set('cat', '1');
-  params.set('sort', 'rank');
-  params.set('year', '' + year);
+const visited = new Set<number>();
 
-  const resp = await fetch('https://api.bgm.tv/v0/subjects?' + params.toString(), {
-    method: 'GET',
-    headers: {
-      'user-agent': 'bgmc/0.0.11 (https://github.com/yjl9903/bgmc)'
+const bgmc = new BgmClient(fetch);
+
+async function getTopSubjects(year: number, kth: number) {
+  const subs = await bgmc.subjects({ type: 2, cat: 1 as any, year, sort: 'rank' });
+  const result: (typeof subs)['data'] = [];
+  for (const bgm of subs?.data ?? []) {
+    if (result.length === kth) break;
+
+    // 跳过美国动画
+    if (bgm.tags.some(tag => tag.name === '美国')) continue;
+
+    // 只包含 TV
+    if (bgm.tags.some(tag => ['剧场版', '总集篇'].includes(tag.name))) continue;
+
+    // 同系列作品只保留一个
+    const related = await getPreSubjects(bgm);
+    if (related.some(r => visited.has(r.id))) {
+      related.forEach(r => visited.add(r.id));
+      continue;
     }
-  });
-  const data: any = await resp.json();
-  return data.data.slice(0, kth);
+
+    related.forEach(r => visited.add(r.id));
+
+    visited.add(bgm.id);
+    result.push(bgm);
+  }
+  return result;
+
+  async function getPreSubjects(bgm: any) {
+    const PreRelations = ['前传', '续集', '主线故事', '不同演绎'];
+    const all = new Map<number, Awaited<ReturnType<BgmClient['subjectRelated']>>[0]>();
+    const tasks: number[] = [bgm.id];
+    for (let i = 0; i < tasks.length; i++) {
+      const related = await bgmc.subjectRelated(tasks[i]);
+      const pres = related.filter(r => PreRelations.includes(r.relation));
+      for (const bgm of pres) {
+        if (!all.has(bgm.id)) {
+          all.set(bgm.id, bgm);
+          tasks.push(bgm.id);
+        }
+      }
+    }
+    return [...all.values()];
+  }
 }
 
 // prettier-ignore
 const years = [
-  2024, 2023, 2022, 2021, 2020,
+  2024,
+  2023, 2022, 2021, 2020,
   2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010,
   // 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000
 ].reverse();

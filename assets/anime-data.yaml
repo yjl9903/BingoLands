@@ -49,19 +49,19 @@ game:
           value: 8
       - type: checkbox
         class: checkbox
-        content: 小马宝莉：友谊就是魔法 第一季 / 8
-        data:
-          value: 8
-      - type: checkbox
-        class: checkbox
         content: 无头骑士异闻录 / 7.9
         data:
           value: 7.9
       - type: checkbox
         class: checkbox
-        content: 飞出个未来 第6季 / 8.2
+        content: 交响情人梦Finale / 7.9
         data:
-          value: 8.2
+          value: 7.9
+      - type: checkbox
+        class: checkbox
+        content: 女仆咖啡厅 / 7.8
+        data:
+          value: 7.8
     - - type: content
         class: content
         attrs:
@@ -109,12 +109,12 @@ game:
           value: 8.1
       - type: checkbox
         class: checkbox
-        content: 爆漫王。2 / 8.1
+        content: 回转企鹅罐 / 8
         data:
-          value: 8.1
+          value: 8
       - type: checkbox
         class: checkbox
-        content: 回转企鹅罐 / 8
+        content: 歌牌情缘 / 8
         data:
           value: 8
     - - type: content
@@ -122,16 +122,6 @@ game:
         attrs:
           width: 40
         content: "2012"
-      - type: checkbox
-        class: checkbox
-        content: 银魂' 延长战 / 8.3
-        data:
-          value: 8.3
-      - type: checkbox
-        class: checkbox
-        content: 爆漫王。3 / 8.3
-        data:
-          value: 8.3
       - type: checkbox
         class: checkbox
         content: 冰菓 / 8.2
@@ -144,19 +134,9 @@ game:
           value: 8.2
       - type: checkbox
         class: checkbox
-        content: 日常 ETV版 / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
         content: 宇宙兄弟 / 8.1
         data:
           value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: 夏目友人帐 肆 / 8
-        data:
-          value: 8
       - type: checkbox
         class: checkbox
         content: 男子高中生的日常 / 7.9
@@ -169,9 +149,29 @@ game:
           value: 7.9
       - type: checkbox
         class: checkbox
-        content: 怪诞小镇 第一季 / 7.9
+        content: 少年同盟 2 / 7.9
         data:
           value: 7.9
+      - type: checkbox
+        class: checkbox
+        content: 人类衰退之后 / 7.9
+        data:
+          value: 7.9
+      - type: checkbox
+        class: checkbox
+        content: 伪物语 / 7.8
+        data:
+          value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: JOJO的奇妙冒险 / 7.8
+        data:
+          value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: 向阳素描×蜂窝 / 7.8
+        data:
+          value: 7.8
     - - type: content
         class: content
         attrs:
@@ -179,22 +179,7 @@ game:
         content: "2013"
       - type: checkbox
         class: checkbox
-        content: 瑞克和莫蒂 第一季 / 8.4
-        data:
-          value: 8.4
-      - type: checkbox
-        class: checkbox
-        content: 物语系列 第二季 / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
         content: 进击的巨人 / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
-        content: 歌牌情缘 第二季 / 8.2
         data:
           value: 8.2
       - type: checkbox
@@ -227,6 +212,21 @@ game:
         content: 美妙旋律 Rainbow Live / 8
         data:
           value: 8
+      - type: checkbox
+        class: checkbox
+        content: Little Busters! 〜Refrain〜 / 7.7
+        data:
+          value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 南家三姐妹 我回来了 / 7.7
+        data:
+          value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 钻石王牌 / 7.6
+        data:
+          value: 7.6
     - - type: content
         class: content
         attrs:
@@ -249,21 +249,6 @@ game:
           value: 8.6
       - type: checkbox
         class: checkbox
-        content: 虫师 续章 / 8.5
-        data:
-          value: 8.5
-      - type: checkbox
-        class: checkbox
-        content: 虫师 特別篇 蚀日之翳 / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
-        content: 怪诞小镇 第二季 / 8.3
-        data:
-          value: 8.3
-      - type: checkbox
-        class: checkbox
         content: 太空丹迪 第二季 / 8.2
         data:
           value: 8.2
@@ -274,14 +259,29 @@ game:
           value: 8.1
       - type: checkbox
         class: checkbox
-        content: JOJO的奇妙冒险 星尘斗士 / 8
+        content: 四月是你的谎言 / 8
         data:
           value: 8
       - type: checkbox
         class: checkbox
-        content: 四月是你的谎言 / 8
+        content: 寄生兽 生命的准则 / 8
         data:
           value: 8
+      - type: checkbox
+        class: checkbox
+        content: 月刊少女野崎君 / 7.8
+        data:
+          value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: 希德尼娅的骑士 / 7.8
+        data:
+          value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: 游戏人生 / 7.7
+        data:
+          value: 7.7
     - - type: content
         class: content
         attrs:
@@ -289,37 +289,12 @@ game:
         content: "2015"
       - type: checkbox
         class: checkbox
-        content: 瑞克和莫蒂 第二季 / 8.4
-        data:
-          value: 8.4
-      - type: checkbox
-        class: checkbox
         content: 吹响！悠风号 / 8.3
         data:
           value: 8.3
       - type: checkbox
         class: checkbox
-        content: 排球少年 第二季 / 8.3
-        data:
-          value: 8.3
-      - type: checkbox
-        class: checkbox
-        content: JOJO的奇妙冒险 星尘斗士 埃及篇 / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
-        content: 银魂° / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
         content: 一拳超人 / 8
-        data:
-          value: 8
-      - type: checkbox
-        class: checkbox
-        content: 悠哉日常大王 Repeat / 8
         data:
           value: 8
       - type: checkbox
@@ -334,24 +309,39 @@ game:
           value: 7.9
       - type: checkbox
         class: checkbox
-        content: 苍穹之法芙娜 EXODUS 第2部分 / 7.8
+        content: 摇曳百合 3☆High! / 7.6
         data:
-          value: 7.8
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 迷糊餐厅 第三季 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 请问您今天要来点兔子吗？？ / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: Concrete Revolutio 超人幻想 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 血界战线 / 7.4
+        data:
+          value: 7.4
+      - type: checkbox
+        class: checkbox
+        content: 我的青春恋爱物语果然有问题 续 / 7.4
+        data:
+          value: 7.4
     - - type: content
         class: content
         attrs:
           width: 40
         content: "2016"
-      - type: checkbox
-        class: checkbox
-        content: 吹响！悠风号 第二季 / 8.5
-        data:
-          value: 8.5
-      - type: checkbox
-        class: checkbox
-        content: 排球少年 乌野高校 VS 白鸟泽学园高校 / 8.5
-        data:
-          value: 8.5
       - type: checkbox
         class: checkbox
         content: 3月的狮子 / 8.3
@@ -364,24 +354,9 @@ game:
           value: 8.2
       - type: checkbox
         class: checkbox
-        content: 马男波杰克3 / 7.9
-        data:
-          value: 7.9
-      - type: checkbox
-        class: checkbox
         content: 灵能百分百 / 7.8
         data:
           value: 7.8
-      - type: checkbox
-        class: checkbox
-        content: JOJO的奇妙冒险 不灭钻石 / 7.8
-        data:
-          value: 7.8
-      - type: checkbox
-        class: checkbox
-        content: 探险活宝 第八季 / 8.1
-        data:
-          value: 8.1
       - type: checkbox
         class: checkbox
         content: 齐木楠雄的灾难 / 7.7
@@ -392,6 +367,31 @@ game:
         content: ReLIFE / 7.7
         data:
           value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 暗杀教室 第二季 / 7.7
+        data:
+          value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 只有我不存在的城市 / 7.7
+        data:
+          value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 为美好的世界献上祝福！ / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 忍者杀手 特别编辑版 / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 编舟记 / 7.6
+        data:
+          value: 7.6
     - - type: content
         class: content
         attrs:
@@ -399,44 +399,14 @@ game:
         content: "2017"
       - type: checkbox
         class: checkbox
-        content: 3月的狮子 第二季 / 8.8
-        data:
-          value: 8.8
-      - type: checkbox
-        class: checkbox
-        content: 瑞克和莫蒂 第三季 / 8.5
-        data:
-          value: 8.5
-      - type: checkbox
-        class: checkbox
-        content: 昭和元禄落语心中 -助六再临篇- / 8.3
-        data:
-          value: 8.3
-      - type: checkbox
-        class: checkbox
         content: 来自深渊 / 8.2
         data:
           value: 8.2
       - type: checkbox
         class: checkbox
-        content: 终物语（下） / 8.1
-        data:
-          value: 8.1
-      - type: checkbox
-        class: checkbox
         content: 少女终末旅行 / 8.1
         data:
           value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: 进击的巨人 第二季 / 8.1
-        data:
-          value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: 探险活宝 第九季 / 8.3
-        data:
-          value: 8.3
       - type: checkbox
         class: checkbox
         content: 重启咲良田 / 7.9
@@ -447,6 +417,36 @@ game:
         content: 月色真美 / 7.9
         data:
           value: 7.9
+      - type: checkbox
+        class: checkbox
+        content: 兽娘动物园 / 7.7
+        data:
+          value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 小魔女学园 / 7.7
+        data:
+          value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 宝石之国 / 7.7
+        data:
+          value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 末日时在做什么？有没有空？可以来拯救吗？ / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 此花绮谭 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: NEW GAME!! / 7.4
+        data:
+          value: 7.4
     - - type: content
         class: content
         attrs:
@@ -459,11 +459,6 @@ game:
           value: 8.3
       - type: checkbox
         class: checkbox
-        content: 进击的巨人 第三季 / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
         content: 摇曳露营△ / 8.2
         data:
           value: 8.2
@@ -472,16 +467,6 @@ game:
         content: 比宇宙更远的地方 / 8.2
         data:
           value: 8.2
-      - type: checkbox
-        class: checkbox
-        content: 命运石之门 0 / 8.1
-        data:
-          value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: JOJO的奇妙冒险 黄金之风 / 8
-        data:
-          value: 8
       - type: checkbox
         class: checkbox
         content: 少女☆歌剧 Revue Starlight / 7.9
@@ -502,6 +487,21 @@ game:
         content: 碧蓝之海 / 7.8
         data:
           value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: 佐贺偶像是传奇 / 7.8
+        data:
+          value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: 终将成为你 / 7.8
+        data:
+          value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: 向山进发 第三季 / 7.7
+        data:
+          value: 7.7
     - - type: content
         class: content
         attrs:
@@ -509,29 +509,9 @@ game:
         content: "2019"
       - type: checkbox
         class: checkbox
-        content: 进击的巨人 第三季 Part.2 / 8.7
-        data:
-          value: 8.7
-      - type: checkbox
-        class: checkbox
         content: 冰海战记 / 8.3
         data:
           value: 8.3
-      - type: checkbox
-        class: checkbox
-        content: 高分少女 第二季 / 8.1
-        data:
-          value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: 灵能百分百 第二季 / 8.1
-        data:
-          value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: 瑞克和莫蒂 第四季 / 8
-        data:
-          value: 8
       - type: checkbox
         class: checkbox
         content: 辉夜大小姐想让我告白～天才们的恋爱头脑战～ / 7.8
@@ -554,9 +534,29 @@ game:
           value: 7.6
       - type: checkbox
         class: checkbox
-        content: 马男波杰克6 上 / 7.7
+        content: 街角魔族 / 7.5
         data:
-          value: 7.7
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 烟草 / 7.4
+        data:
+          value: 7.4
+      - type: checkbox
+        class: checkbox
+        content: MIX：明青故事 / 7.4
+        data:
+          value: 7.4
+      - type: checkbox
+        class: checkbox
+        content: 彼方的阿斯特拉 / 7.4
+        data:
+          value: 7.4
+      - type: checkbox
+        class: checkbox
+        content: 动物狂想曲 / 7.4
+        data:
+          value: 7.4
     - - type: content
         class: content
         attrs:
@@ -574,32 +574,7 @@ game:
           value: 8.1
       - type: checkbox
         class: checkbox
-        content: 辉夜大小姐想让我告白？～天才们的恋爱头脑战～ / 7.9
-        data:
-          value: 7.9
-      - type: checkbox
-        class: checkbox
-        content: 马男波杰克6 下 / 8
-        data:
-          value: 8
-      - type: checkbox
-        class: checkbox
         content: 异种族风俗娘评鉴指南 / 7.7
-        data:
-          value: 7.7
-      - type: checkbox
-        class: checkbox
-        content: 排球少年 TO THE TOP 第二期 / 7.7
-        data:
-          value: 7.7
-      - type: checkbox
-        class: checkbox
-        content: 进击的巨人 最终季 / 7.7
-        data:
-          value: 7.7
-      - type: checkbox
-        class: checkbox
-        content: Re：从零开始的异世界生活 新编集版 / 7.7
         data:
           value: 7.7
       - type: checkbox
@@ -609,9 +584,34 @@ game:
           value: 7.6
       - type: checkbox
         class: checkbox
-        content: 请问您今天要来点兔子吗？BLOOM / 7.6
+        content: 异兽魔都 / 7.6
         data:
           value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 某科学的超电磁炮T / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 王者天下 第三季 / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: Love Live! 虹咲学园校园偶像同好会 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 异度侵入 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 甜梦猫 / 7.5
+        data:
+          value: 7.5
     - - type: content
         class: content
         attrs:
@@ -634,16 +634,6 @@ game:
           value: 8.3
       - type: checkbox
         class: checkbox
-        content: 摇曳露营△ 第二季 / 8.3
-        data:
-          value: 8.3
-      - type: checkbox
-        class: checkbox
-        content: 悠哉日常大王 Nonstop / 8.2
-        data:
-          value: 8.2
-      - type: checkbox
-        class: checkbox
         content: 86 -不存在的战区- 第2部分 / 8
         data:
           value: 8
@@ -654,11 +644,6 @@ game:
           value: 8
       - type: checkbox
         class: checkbox
-        content: 无职转生～到了异世界就拿出真本事～ / 7.9
-        data:
-          value: 7.9
-      - type: checkbox
-        class: checkbox
         content: 境界触发者 第三季 / 8
         data:
           value: 8
@@ -667,6 +652,21 @@ game:
         content: 漂流少年 / 7.8
         data:
           value: 7.8
+      - type: checkbox
+        class: checkbox
+        content: Re：从零开始的异世界生活 第二季 后半部分 / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 巴克·亚罗 / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 小林家的龙女仆S / 7.6
+        data:
+          value: 7.6
     - - type: content
         class: content
         attrs:
@@ -679,31 +679,6 @@ game:
           value: 8.4
       - type: checkbox
         class: checkbox
-        content: 辉夜大小姐想让我告白-超级浪漫- / 8.3
-        data:
-          value: 8.3
-      - type: checkbox
-        class: checkbox
-        content: 来自深渊 烈日的黄金乡 / 8.3
-        data:
-          value: 8.3
-      - type: checkbox
-        class: checkbox
-        content: 灵能百分百 第三季 / 8.1
-        data:
-          value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: 向山进发 Next Summit / 8
-        data:
-          value: 8
-      - type: checkbox
-        class: checkbox
-        content: 擅长捉弄的高木同学 第三季 / 8
-        data:
-          value: 8
-      - type: checkbox
-        class: checkbox
         content: 死神 千年血战篇 / 7.9
         data:
           value: 7.9
@@ -714,14 +689,39 @@ game:
           value: 7.8
       - type: checkbox
         class: checkbox
-        content: 街角魔族 2丁目 / 7.8
+        content: 异世界舅舅 / 7.6
         data:
-          value: 7.8
+          value: 7.6
       - type: checkbox
         class: checkbox
-        content: 黄金神威 第四季 / 7.7
+        content: 平家物语 / 7.6
         data:
-          value: 7.7
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 明日同学的水手服 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 夏日重现 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 青之芦苇 / 7.4
+        data:
+          value: 7.4
+      - type: checkbox
+        class: checkbox
+        content: 彻夜之歌 / 7.4
+        data:
+          value: 7.4
+      - type: checkbox
+        class: checkbox
+        content: 间谍过家家 第2部分 / 7.3
+        data:
+          value: 7.3
     - - type: content
         class: content
         attrs:
@@ -734,19 +734,9 @@ game:
           value: 8.5
       - type: checkbox
         class: checkbox
-        content: 冰海战记 第二季 / 8.1
-        data:
-          value: 8.1
-      - type: checkbox
-        class: checkbox
         content: BanG Dream! It's MyGO!!!!! / 8.1
         data:
           value: 8.1
-      - type: checkbox
-        class: checkbox
-        content: 辉夜大小姐想让我告白-初吻不会结束- / 7.9
-        data:
-          value: 7.9
       - type: checkbox
         class: checkbox
         content: 我心里危险的东西 / 7.8
@@ -754,17 +744,7 @@ game:
           value: 7.8
       - type: checkbox
         class: checkbox
-        content: 机动战士高达 闪光的哈撒韦 TV剪辑版 / 8
-        data:
-          value: 8
-      - type: checkbox
-        class: checkbox
         content: 天国大魔境 / 7.7
-        data:
-          value: 7.7
-      - type: checkbox
-        class: checkbox
-        content: 偶像大师 灰姑娘女孩 U149 / 7.7
         data:
           value: 7.7
       - type: checkbox
@@ -774,9 +754,29 @@ game:
           value: 7.7
       - type: checkbox
         class: checkbox
-        content: 进击的巨人 最终季 完结篇 前篇 / 7.7
+        content: 偶像大师 灰姑娘女孩 U149 / 7.7
         data:
           value: 7.7
+      - type: checkbox
+        class: checkbox
+        content: 别当欧尼酱了！ / 7.6
+        data:
+          value: 7.6
+      - type: checkbox
+        class: checkbox
+        content: 宝可梦 地平线 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 药屋少女的呢喃 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 【我推的孩子】 / 7.4
+        data:
+          value: 7.4
     - - type: content
         class: content
         attrs:
@@ -787,11 +787,6 @@ game:
         content: 航海王：粉丝来信 / 8.5
         data:
           value: 8.5
-      - type: checkbox
-        class: checkbox
-        content: 我心里危险的东西 第二季 / 8.3
-        data:
-          value: 8.3
       - type: checkbox
         class: checkbox
         content: 败犬女主太多了！ / 8
@@ -809,17 +804,7 @@ game:
           value: 7.8
       - type: checkbox
         class: checkbox
-        content: 夏目友人帐 柒 / 7.8
-        data:
-          value: 7.8
-      - type: checkbox
-        class: checkbox
         content: GIRLS BAND CRY / 7.6
-        data:
-          value: 7.6
-      - type: checkbox
-        class: checkbox
-        content: 为美好的世界献上祝福！第三季 / 7.6
         data:
           value: 7.6
       - type: checkbox
@@ -832,6 +817,21 @@ game:
         content: 乱马1/2 / 7.5
         data:
           value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 胆大党 / 7.5
+        data:
+          value: 7.5
+      - type: checkbox
+        class: checkbox
+        content: 深夜重拳 / 7.4
+        data:
+          value: 7.4
+      - type: checkbox
+        class: checkbox
+        content: 义妹生活 / 7.3
+        data:
+          value: 7.3
 footer:
   - type: p
     content:
