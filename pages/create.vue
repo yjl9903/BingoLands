@@ -58,6 +58,7 @@ const getSharedLink = (hash: string) => {
 const copyLink = async () => {
   const link = getSharedLink(created.value?.hash!);
   await navigator.clipboard.writeText(link);
+  toast.success('复制成功');
 };
 
 const previewError = ref<any>();

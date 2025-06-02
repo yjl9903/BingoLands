@@ -50,7 +50,7 @@ watch(bingoRef, (ref) => {
       <GameC :game="game"></GameC>
       <FooterC :blocks="footer"></FooterC>
     </div>
-    <ShareC></ShareC>
+    <ShareC class="mt-8"></ShareC>
   </div>
 </template>
 

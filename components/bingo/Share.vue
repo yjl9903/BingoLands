@@ -4,22 +4,36 @@ import { domToBlob } from 'modern-screenshot';
 
 import { injectBingoContext } from './context';
 
+const url = useRequestURL();
+
 const ctx = injectBingoContext();
 
 const domToImageBlob = async () => {
   if (!ctx.dom.value) return;
 
   try {
-    const dom = ctx.dom.value;
-    const rect = dom.getBoundingClientRect();
+    const rootDom = ctx.dom.value;
+    const tableDom = ctx.dom.value.querySelector(
+      '.bingo-game > table.bingo-table'
+    ) as HTMLTableElement | null;
 
-    const blob = await domToBlob(dom, {
-      width: rect.width + 32 + 3,
-      height: rect.height + 32 + 3 + 8,
+    const rootRect = rootDom.getBoundingClientRect();
+    const tableWidth = tableDom?.clientWidth || 0;
+
+    const minWidth = 1024;
+    const contentWidth = Math.max(rootRect.width, tableWidth, minWidth) + 3;
+    const contentHeight = rootRect.height + 3 + 8;
+
+    const blob = await domToBlob(rootDom, {
+      width: contentWidth + 32 * 2,
+      height: contentHeight + 32 * 2,
       scale: 2,
       backgroundColor: 'white',
       style: {
-        padding: '16px'
+        paddingLeft: '32px',
+        paddingRight: '32px',
+        paddingTop: '32px',
+        paddingBottom: '32px'
       },
       features: {
         copyScrollbar: false
@@ -36,7 +50,7 @@ const domToImageBlob = async () => {
         let cur = table;
         while (cur) {
           if (cur.style.width) {
-            cur.style.width = Number.parseFloat(cur.style.width) + 3 + 'px';
+            cur.style.width = contentWidth + 'px';
             cur.style.height = Number.parseFloat(cur.style.height) + 3 + 'px';
           }
           cur = cur.parentElement as any;
@@ -86,11 +100,26 @@ const copyImage = async () => {
 
   toast.success('复制图片成功');
 };
+
+const copyURL = async () => {
+  await navigator.clipboard.writeText(url.toString());
+  toast.success('复制链接成功');
+};
 </script>
 
 <template>
   <div class="flex justify-center gap-4">
-    <Button @click="downloadImage">下载图片</Button>
-    <Button @click="copyImage">复制图片</Button>
+    <Button @click="downloadImage">
+      <span class="i-carbon-download"></span>
+      <span>下载图片</span>
+    </Button>
+    <Button @click="copyImage">
+      <span class="i-carbon-copy"></span>
+      <span>复制图片</span>
+    </Button>
+    <Button @click="copyURL" variant="secondary">
+      <span class="i-carbon-share"></span>
+      <span>分享链接</span>
+    </Button>
   </div>
 </template>
