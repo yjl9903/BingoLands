@@ -12,15 +12,8 @@ const ctx = injectBingoContext();
 
 const checked = ref(ctx.runtime.getState(row.value, col.value)?.checked ?? false);
 
-const width = computed(() => {
-  const width = Number.parseFloat(node.value.attrs?.width as any);
-  return Number.isNaN(width) ? undefined : width;
-});
-
 const rowSpan = computed(() => node.value.rowspan);
 const colSpan = computed(() => node.value.colspan);
-const verticalAlign = computed(() => node.value.attrs?.vertical || 'center');
-const horizontalAlign = computed(() => node.value.attrs?.horizontal || 'center');
 
 const cellStyle = computed(() => {
   return node.value.style;
@@ -51,7 +44,6 @@ onUnmounted(() => {
   <td
     :class="['table-cell', ...(node.class?.map((c) => ctx.scoped + c) ?? [])]"
     :style="cellStyle"
-    :width="width"
     :rowspan="rowSpan"
     :colspan="colSpan"
     :data-type="node.type"

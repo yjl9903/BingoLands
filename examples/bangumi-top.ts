@@ -55,8 +55,7 @@ async function getTopSubjects(year: number, kth: number) {
 
 // prettier-ignore
 const years = [
-  2024,
-  2023, 2022, 2021, 2020,
+  2024, 2023, 2022, 2021, 2020,
   2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010,
   // 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000
 ].reverse();
@@ -101,6 +100,6 @@ const generated = generateSimpleBingo(
 await fs.promises.writeFile('./assets/anime-data.yaml', stringify(generated.raw, null, 2), 'utf-8');
 await fs.promises.writeFile(
   './assets/anime-data.json',
-  JSON.stringify(generated.parsed, null, 2),
+  JSON.stringify({ hash: 'd47d603ea34d51c45165a7ce00d84749e1b7c492', content: generated.parsed }, null, 2),
   'utf-8'
 );

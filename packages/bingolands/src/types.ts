@@ -65,10 +65,6 @@ export type BingoTable = {
 };
 
 export type BingoTableCellAttrs = {
-  width?: number | string;
-  height?: number | string;
-  vertical?: 'center' | 'start' | 'end';
-  horizontal?: 'center' | 'start' | 'end';
 };
 
 export type BingoTableCell = {

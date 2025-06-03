@@ -31,7 +31,7 @@ const withBorder = computed(() => true);
 
 <style>
 .bingo-table {
-  @apply: text-sm;
+  @apply: text-sm table-fixed;
 }
 
 .bingo-table.with-border {
