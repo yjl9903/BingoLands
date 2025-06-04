@@ -111,8 +111,8 @@ importers:
         specifier: ^2.8.0
         version: 2.8.0
       zod:
-        specifier: ^3.25.48
-        version: 3.25.48
+        specifier: ^3.25.51
+        version: 3.25.51
     devDependencies:
       '@iconify-json/carbon':
         specifier: ^1.2.8
@@ -193,8 +193,8 @@ importers:
         specifier: ^2.8.0
         version: 2.8.0
       zod:
-        specifier: ^3.25.48
-        version: 3.25.48
+        specifier: ^3.25.51
+        version: 3.25.51
 
   packages/vue:
     dependencies:
@@ -6881,8 +6881,8 @@ packages:
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
 
-  zod@3.25.48:
-    resolution: {integrity: sha512-0X1mz8FtgEIvaxGjdIImYpZEaZMrund9pGXm3M6vM7Reba0e2eI71KPjSCGXBfwKDPwPoywf6waUKc3/tFvX2Q==}
+  zod@3.25.51:
+    resolution: {integrity: sha512-TQSnBldh+XSGL+opiSIq0575wvDPqu09AqWe1F7JhUMKY+M91/aGlK4MhpVNO7MgYfHcVCB1ffwAUTJzllKJqg==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -7744,7 +7744,7 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.25.48
+      zod: 3.25.51
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7834,9 +7834,9 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       unist-util-visit: 5.0.0
       ws: 8.18.2
-      zod: 3.25.48
-      zod-to-json-schema: 3.24.5(zod@3.25.48)
-      zod-to-ts: 1.2.0(typescript@5.8.3)(zod@3.25.48)
+      zod: 3.25.51
+      zod-to-json-schema: 3.24.5(zod@3.25.51)
+      zod-to-ts: 1.2.0(typescript@5.8.3)(zod@3.25.51)
     transitivePeerDependencies:
       - bufferutil
       - drizzle-orm
@@ -13387,7 +13387,7 @@ snapshots:
       ts-morph: 26.0.0
       undici: 7.10.0
       vue-metamorph: 3.3.3(eslint@9.28.0(jiti@2.4.2))
-      zod: 3.25.48
+      zod: 3.25.51
     transitivePeerDependencies:
       - '@vue/composition-api'
       - eslint
@@ -14743,17 +14743,17 @@ snapshots:
       compress-commons: 6.0.2
       readable-stream: 4.7.0
 
-  zod-to-json-schema@3.24.5(zod@3.25.48):
+  zod-to-json-schema@3.24.5(zod@3.25.51):
     dependencies:
-      zod: 3.25.48
+      zod: 3.25.51
 
-  zod-to-ts@1.2.0(typescript@5.8.3)(zod@3.25.48):
+  zod-to-ts@1.2.0(typescript@5.8.3)(zod@3.25.51):
     dependencies:
       typescript: 5.8.3
-      zod: 3.25.48
+      zod: 3.25.51
 
   zod@3.22.3: {}
 
-  zod@3.25.48: {}
+  zod@3.25.51: {}
 
   zwitch@2.0.4: {}
