@@ -24,7 +24,7 @@ if (!bingo.value) {
 <template>
   <Layout>
     <Head>
-      <Title>{{ bingo?.name ? `${bingo.name} | BingoLands 宾果群岛` : 'BingoLands 宾果群岛' }}</Title>
+      <Title>{{ bingo?.name ? `编辑 ${bingo.name} | BingoLands 宾果群岛` : 'BingoLands 宾果群岛' }}</Title>
       <Meta name="description" :content="description" />
     </Head>
     <Bingo v-if="bingo" :hash="hash" :content="bingo.content"></Bingo>
