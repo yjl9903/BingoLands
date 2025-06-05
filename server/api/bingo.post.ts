@@ -19,7 +19,7 @@ export default defineEventHandler(async (event) => {
     try {
       const now = new Date();
       const content = parsed.content;
-      const hash = await hashBingoContent(content);
+      const hash = (await hashBingoContent(content)).slice(0, 8);
 
       const db = await connectDatabase();
 
@@ -49,12 +49,13 @@ export default defineEventHandler(async (event) => {
         return {
           status: 'ok',
           id: resp[0].id,
-          hash: hash.slice(0, 8),
+          hash,
           auth: body.auth
         };
       } else {
         return {
           status: 'error',
+          hash,
           message: ['禁止上传重复 Bingo']
         };
       }
