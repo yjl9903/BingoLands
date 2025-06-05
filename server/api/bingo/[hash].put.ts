@@ -2,16 +2,21 @@ import { and, eq } from 'drizzle-orm';
 
 import {
   type BingoContent,
-  hashBingoContent,
   normalizeContentInit,
   CompatibilityVersion
 } from 'bingolands';
 
 import { bingos } from '~/drizzle/schema';
 
-import { connectDatabase } from '../utils/database';
+import { connectDatabase } from '../../utils/database';
 
 export default defineEventHandler(async (event) => {
+  const hash = getRouterParam(event, 'hash');
+
+  if (!hash) {
+    return { status: 'error', message: 'Bingo hash id 为空', owner: null, bingo: null };
+  }
+
   const body = await readBody<{ auth: string; content: BingoContent; compatibility?: number }>(
     event
   );
@@ -22,29 +27,22 @@ export default defineEventHandler(async (event) => {
     try {
       const now = new Date();
       const content = parsed.content;
-      const hash = (await hashBingoContent(content)).slice(0, 8);
       const compatibility =
         body.compatibility && body.compatibility >= 0 && body.compatibility <= CompatibilityVersion
           ? body.compatibility
           : CompatibilityVersion;
 
       const db = await connectDatabase();
-
       const resp = await db
-        .insert(bingos)
-        .values([
-          {
-            hash,
-            auth: body.auth,
-            name: content.name,
-            content,
-            createdAt: now,
-            updatedAt: now,
-            compatibility
-          }
-        ])
+        .update(bingos)
+        .set({
+          name: content.name,
+          content,
+          updatedAt: now,
+          compatibility
+        })
+        .where(and(eq(bingos.hash, hash), eq(bingos.auth, body.auth)))
         .returning({ id: bingos.id, hash: bingos.hash })
-        .onConflictDoNothing()
         .execute();
 
       if (resp.length === 1) {
@@ -55,32 +53,11 @@ export default defineEventHandler(async (event) => {
           auth: body.auth
         };
       } else {
-        const resp = await db
-          .update(bingos)
-          .set({
-            name: content.name,
-            content,
-            updatedAt: new Date(),
-            compatibility
-          })
-          .where(and(eq(bingos.hash, hash), eq(bingos.auth, body.auth)))
-          .returning({ id: bingos.id, hash: bingos.hash })
-          .execute();
-
-        if (resp.length === 1) {
-          return {
-            status: 'ok',
-            id: resp[0].id,
-            hash,
-            auth: body.auth
-          };
-        } else {
-          return {
-            status: 'error',
-            hash,
-            message: ['未找到或无权限']
-          };
-        }
+        return {
+          status: 'error',
+          hash,
+          message: ['未找到或无权限']
+        };
       }
     } catch (error) {
       console.error('POST /api/bingos', error);

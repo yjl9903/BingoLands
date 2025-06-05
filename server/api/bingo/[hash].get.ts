@@ -6,7 +6,6 @@ import { connectDatabase } from '../../utils/database';
 
 export default defineEventHandler(async (event) => {
   const hash = getRouterParam(event, 'hash');
-  const db = await connectDatabase();
 
   if (!hash) {
     return { status: 'error', message: 'Bingo hash id 为空', owner: null, bingo: null };
@@ -14,6 +13,7 @@ export default defineEventHandler(async (event) => {
 
   const reqAuth = getCookie(event, 'bingo_auth_uuid');
 
+  const db = await connectDatabase();
   const result = await db.select().from(bingos).where(eq(bingos.hash, hash)).execute();
 
   if (result.length === 1) {
