@@ -114,7 +114,7 @@ const onPreivewExit = () => {
       <div></div>
     </ClientOnly>
     <div v-else-if="tab === 'preview'">
-      <div class="my-4 space-x-2" @click="onSubmit">
+      <div class="my-4 space-x-2">
         <Button @click="onSubmit">上传</Button>
         <Button @click="onPreivewExit">编辑</Button>
       </div>

@@ -56,7 +56,7 @@ watch(bingoRef, (ref) => {
 
 <style>
 .bingo-root {
-  @apply: space-y-8;
+  @apply: space-y-4;
 }
 
 .bingo-header,
