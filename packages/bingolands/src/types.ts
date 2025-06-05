@@ -64,8 +64,7 @@ export type BingoTable = {
   cells: BingoTableCell[][];
 };
 
-export type BingoTableCellAttrs = {
-};
+export type BingoTableCellAttrs = {};
 
 export type BingoTableCell = {
   type: 'content' | 'checkbox';

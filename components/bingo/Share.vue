@@ -20,8 +20,7 @@ const domToImageBlob = async () => {
     const rootRect = rootDom.getBoundingClientRect();
     const tableWidth = tableDom?.clientWidth || 0;
 
-    const minWidth = 1024;
-    const contentWidth = Math.max(rootRect.width, tableWidth, minWidth) + 3;
+    const contentWidth = tableWidth + 3;
     const contentHeight = rootRect.height + 4 + 8 + /* 生成链接位置的高度 */ 16 + 32;
 
     const blob = await domToBlob(rootDom, {
@@ -132,7 +131,7 @@ const copyURL = async () => {
 </script>
 
 <template>
-  <div class="flex justify-center gap-4">
+  <div class="flex justify-start gap-4">
     <Button @click="downloadImage" size="sm">
       <span class="i-carbon-download"></span>
       <span>下载图片</span>

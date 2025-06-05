@@ -100,6 +100,10 @@ const generated = generateSimpleBingo(
 await fs.promises.writeFile('./assets/anime-data.yaml', stringify(generated.raw, null, 2), 'utf-8');
 await fs.promises.writeFile(
   './assets/anime-data.json',
-  JSON.stringify({ hash: 'd47d603ea34d51c45165a7ce00d84749e1b7c492', content: generated.parsed }, null, 2),
+  JSON.stringify(
+    { hash: 'd47d603ea34d51c45165a7ce00d84749e1b7c492', content: generated.parsed },
+    null,
+    2
+  ),
   'utf-8'
 );

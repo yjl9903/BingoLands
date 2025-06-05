@@ -48,7 +48,7 @@ export function generateSimpleBingo(
     },
     styles: {
       content: 'font-weight:bold;color:white;background:#dc2626;',
-      'checkbox': `width:calc(100%/${col});min-width:100px;`,
+      checkbox: `width:calc(100%/${col});min-width:100px;`,
       'checkbox:hover': 'background:oklch(0.967 0.001 286.375);',
       'checkbox[checked]': 'background:green;color:white;'
     }

@@ -51,17 +51,19 @@ const BingoTableSchema = z.object({
 
 export const BingoContentSchema = z.object({
   name: z.string(),
-  header: z.array(BlockSchema),
+  header: z.array(BlockSchema).default([]),
   game: BingoTableSchema,
-  footer: z.array(BlockSchema),
-  styles: z.record(z.string(), z.record(z.string(), z.string())),
-  variables: z.record(
-    z.string(),
-    z.object({
-      type: z.enum(['number']),
-      fixed: z.number().gt(0).optional(),
-      formula: z.string()
-    })
-  ),
+  footer: z.array(BlockSchema).default([]),
+  styles: z.record(z.string(), z.record(z.string(), z.string())).default({}),
+  variables: z
+    .record(
+      z.string(),
+      z.object({
+        type: z.enum(['number']),
+        fixed: z.number().gt(0).optional(),
+        formula: z.string()
+      })
+    )
+    .optional(),
   meta: z.record(z.string(), z.string()).optional()
 });

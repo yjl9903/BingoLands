@@ -5,9 +5,9 @@ import { type VariableStateWatcher, VariableState } from './variable';
 
 export class BingoRuntime {
   private readonly state: CellState[];
-  
+
   private readonly grid: CellState[][];
-  
+
   private readonly variables: Map<string, VariableState<any>>;
 
   public readonly content: BingoContent;
