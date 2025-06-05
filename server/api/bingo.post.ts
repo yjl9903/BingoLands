@@ -49,7 +49,7 @@ export default defineEventHandler(async (event) => {
         return {
           status: 'ok',
           id: resp[0].id,
-          hash,
+          hash: hash.slice(0, 8),
           auth: body.auth
         };
       } else {
