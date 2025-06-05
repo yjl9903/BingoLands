@@ -3,7 +3,7 @@ import type { BingoContent } from './types';
 import basex from 'base-x';
 import { serialize } from 'ohash';
 
-const base58 = basex('123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz')
+const base58 = basex('123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz');
 
 export async function hashBingoContent(content: BingoContent) {
   const text = serialize(content);

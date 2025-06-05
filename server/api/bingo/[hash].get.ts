@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
   const db = await connectDatabase();
 
   if (!hash) {
-    return { status: 'error', message: 'Bingo hash id 为空', bingo: null };
+    return { status: 'error', message: 'Bingo hash id 为空', owner: null, bingo: null };
   }
 
   const reqAuth = getCookie(event, 'bingo_auth_uuid');
@@ -28,6 +28,6 @@ export default defineEventHandler(async (event) => {
       }
     };
   } else {
-    return { status: 'error', message: '未找到 Bingo', bingo: null };
+    return { status: 'error', message: '未找到 Bingo', owner: null, bingo: null };
   }
 });

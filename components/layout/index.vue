@@ -2,7 +2,12 @@
 import Footer from './Footer.vue';
 import { Button } from '../ui/button';
 
-const props = withDefaults(defineProps<{}>(), {});
+const props = withDefaults(
+  defineProps<{
+    createBingo?: boolean;
+  }>(),
+  { createBingo: true }
+);
 </script>
 
 <template>
@@ -19,9 +24,11 @@ const props = withDefaults(defineProps<{}>(), {});
           ><span>讨论</span></nuxt-link
         >
         <div class="flex-auto"></div>
-        <div class="flex items-center">
+        <div class="flex items-center gap-4">
+          <slot name="button-group"> </slot>
           <nuxt-link to="/create">
             <Button
+              v-if="createBingo"
               variant="outline"
               class="text-green-500 bg-green-100/50 border-green-600 hover:(text-green-500 bg-green-100/80 border-green-700)"
               >创建 Bingo!</Button

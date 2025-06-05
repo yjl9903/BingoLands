@@ -92,7 +92,7 @@ const onPreivewExit = () => {
     <Title>创建新的 Bingo | BingoLands 宾果群岛</Title>
     <Meta name="description" content="BingoLands 宾果群岛：生成可分享可交互的 Bingo 游戏！" />
   </Head>
-  <Layout>
+  <Layout :create-bingo="false">
     <h1 class="text-3xl font-bold my-4">创建一个新的在线 Bingo 游戏!</h1>
     <div class="my-4">暂时只支持通过代码创建游戏, 可视化编辑器正在开发中...</div>
     <div class="my-4">
