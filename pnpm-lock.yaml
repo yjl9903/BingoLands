@@ -183,6 +183,9 @@ importers:
 
   packages/bingolands:
     dependencies:
+      base-x:
+        specifier: ^5.0.1
+        version: 5.0.1
       ohash:
         specifier: ^2.0.11
         version: 2.0.11
@@ -2545,6 +2548,9 @@ packages:
         optional: true
       bare-events:
         optional: true
+
+  base-x@5.0.1:
+    resolution: {integrity: sha512-M7uio8Zt++eg3jPj+rHMfCC+IuygQHHCOU+IYsVtik6FWjuYpVt/+MRKcgsAMHh8mMFAwnB+Bs+mTrFiXjMzKg==}
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -9619,6 +9625,8 @@ snapshots:
     optionalDependencies:
       bare-events: 2.5.4
     optional: true
+
+  base-x@5.0.1: {}
 
   base64-js@1.5.1: {}
 
