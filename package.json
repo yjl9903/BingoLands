@@ -37,7 +37,7 @@
     "bgmc": "^0.0.12",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "drizzle-orm": "^0.44.1",
+    "drizzle-orm": "^0.44.2",
     "lucide-vue-next": "^0.511.0",
     "modern-screenshot": "^4.6.0",
     "monaco-editor": "^0.52.2",
