@@ -75,7 +75,7 @@
     "typescript": "^5.8.3",
     "unbuild": "^3.5.0",
     "unocss-preset-animations": "^1.2.1",
-    "unocss-preset-flowind": "^0.0.5",
+    "unocss-preset-flowind": "^0.0.6",
     "unocss-preset-shadcn": "^0.5.0",
     "unplugin-analytics": "^0.0.12",
     "unplugin-info": "^1.2.2",
