@@ -68,7 +68,7 @@
     "bumpp": "latest",
     "drizzle-kit": "^0.31.4",
     "nuxt-rate-limit": "^1.2.0",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.2",
     "shadcn-vue": "^2.2.0",
     "tsx": "^4.19.4",
     "turbo": "^2.5.4",
