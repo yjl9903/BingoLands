@@ -30,7 +30,7 @@
     "@nuxtjs/sitemap": "7.3.1",
     "@pinia/nuxt": "0.11.1",
     "@tailwindcss/vite": "^4.1.8",
-    "@unhead/vue": "^2.0.10",
+    "@unhead/vue": "^2.0.14",
     "@vueuse/core": "^13.3.0",
     "@vueuse/nuxt": "^13.3.0",
     "better-sqlite3": "^11.10.0",
